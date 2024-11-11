@@ -1,0 +1,137 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFD700;
+    line-height: 1.5;
+}
+
+/*cabecalho da pag*/
+
+header {
+    background-color: #ffd900;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    color: #000;
+    font-size: 2.4rem;
+margin-left: 1.4%;
+}
+
+.search{
+    width: 48%;
+    height: 49px;
+    border-radius: 24px;
+    border: none;
+}
+
+input::placeholder{
+    font-size: 1.3rem;
+    padding-left: 19px;
+    padding-top: 15px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap:2.6rem;
+   font-size: 1.5rem;
+   margin-top: 2%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* */
+
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 3%;
+}
+
+/* Estilo das Empresas */
+
+.company{
+    background-color: #ffffff;
+    border-radius: 19px;
+    border: 7px solid #ffa200;
+    width: 99%;
+    height: 533px;
+margin: 8% auto;
+    color: rgb(39, 45, 49);
+}
+
+.company > h2{
+font-size: 3rem;
+margin: 2%;
+text-align: center;
+}
+.company > p{
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+
+.company .btn{
+    background-color: #f0e9e9;
+    color: rgb(0, 0, 0);
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 9px;
+   position: relative;
+   top: 13%;
+   left: 44.5%;
+    text-align: center;
+  
+}
+
+
+.btn:hover{
+    background-color: #ff9500;
+    color: #ffffff;
+}
+
+
+
+.companies {
+width: 80%;
+height: 165vh;
+margin: auto;
+
+}
+
+
+
+
