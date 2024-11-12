@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupos</title>
     <link rel="stylesheet" href="../css/projetos.css">
 </head>
+
 <body>
 
     <header>
         <a href="index.html">
             <h1 class="logo">ECOENERGY</h1>
         </a>
-        
+
         <input type="text" placeholder="Pesquisar" id="inputSearch" class="search">
         <nav>
             <ul>
@@ -25,64 +27,63 @@
         </nav>
     </header>
 
-
     <h1>Empresas de Energia Renovável</h1>
-    <div class="companies">
-        <div class="company">
-            <h2>EcoSolar</h2>
-            <p>Especializada em energia solar para comunidades e empresas.</p>
-            <button class="btn">Saiba Mais</button>
-        </div>
+<main>
 
+    <div class="companiesOne">
         <div class="company">
-            <h2>BioPower</h2>
-            <p>Fornecedora de energia gerada a partir de biomassa.</p>
-            <button class="btn">Saiba Mais</button>
+            <h1>SolarTech Energia</h1>
+            <h2>Razão Social:</h2>
+            <p> SolarTech Energia Sustentável Ltda.</p>
+            <button class="btn" id="show-info-btn">Saiba Mais</button>
         </div>
-        
+    </div>
+    
+    <!-- Div com informações adicionais -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h1>Informações Adicionais</h1>
+            <p> Energia Solar Fotovoltaica</p>
+            <h2>Benefícios</h2>
+            <p>Economize na conta de luz, reduza carbono e adote energia renovável
+            </p>
+            <h2>Website:</h2>
+            <p class="company-info"> <a href="https://solartech.com.br" target="_blank">www.solartech.com.br</a></p>
+
+            <button id="close-btn">Fechar</button>
+        </div>
+    </div>
+    </div>
+
+  
+    <div class="companiesTwo">
         <div class="company">
-            <h2>WindForce</h2>
-            <p>Energia eólica para grandes corporações e projetos sustentáveis.</p>
-            <button class="btn">Saiba Mais</button>
+            <h1>SolarTech Energia</h1>
+            <h2>Razão Social:</h2>
+            <p> SolarTech Energia Sustentável Ltda.</p>
+            <button class="btn" id="show-info-btn">Saiba Mais</button>
         </div>
+    </div>
+    
+    <!-- informações adicionais -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+           
+
+            <button id="close-btn">Fechar</button>
+        </div>
+    </div>
+    
 
     </div>
 
-   
-
-    <div id="formSection" style="display: none; margin-top: 2rem;">
-        <h2 id="formTitle"></h2>
-        <form>
-            <label for="tipo">Selecione seu tipo:</label>
-            <select id="tipo" onchange="toggleFields()">
-                <option value="">Selecione...</option>
-                <option value="instituicao">Instituição</option>
-                <option value="pessoa_fisica">Pessoa Física</option>
-                <option value="pessoa_juridica">Pessoa Jurídica</option>
-            </select>
-
-            <div id="common-fields">
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Digite seu email" required>
-
-                <label for="cep">CEP:</label>
-                <input type="text" id="cep" placeholder="Digite seu CEP" required>
-
-                <label for="localizacao">Localização:</label>
-                <input type="text" id="localizacao" placeholder="Digite sua localização" required>
-            </div>
-
-            <div id="juridica-fields" style="display: none;">
-                <label for="cnpj">CNPJ:</label>
-                <input type="text" id="cnpj" placeholder="Digite seu CNPJ">
-            </div>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
+    
+</main>
+  
 
 
-   
-<script src="projetos.js"></script>
+
+    <script src="../js/projetos"></script>
 </body>
+
 </html>

@@ -10,7 +10,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
-    color: #FFD700;
     line-height: 1.5;
 }
 
@@ -80,58 +79,105 @@ h1 {
     margin: 3%;
 }
 
-/* Estilo das Empresas */
-
-.company{
+main{
+display: flex;
+}
+/* Estilo da empresa */
+.company {
     background-color: #ffffff;
     border-radius: 19px;
-    border: 7px solid #ffa200;
-    width: 99%;
-    height: 533px;
-margin: 8% auto;
+    width: 69%;
+    margin: 9% auto;
+    height: 493px;
     color: rgb(39, 45, 49);
 }
 
-.company > h2{
-font-size: 3rem;
-margin: 2%;
-text-align: center;
-}
-.company > p{
-    font-size: 1.9rem;
-    text-align: center;
-}
 
 
-.company .btn{
+/* Estilo do botão */
+.company .btn {
     background-color: #f0e9e9;
     color: rgb(0, 0, 0);
     padding: 12px 37px;
     text-decoration: none;
     font-size: 1.5rem;
     border-radius: 9px;
-   position: relative;
-   top: 13%;
-   left: 44.5%;
+    position: relative;
+    top: 3%;
+    left: 30.5%;
     text-align: center;
-  
 }
 
-
-.btn:hover{
+.btn:hover {
     background-color: #ff9500;
     color: #ffffff;
 }
 
-
-
-.companies {
-width: 80%;
-height: 165vh;
-margin: auto;
-
+/* Container para as empresas */
+.companiesOne {
+    width: 88%;
+    height: 69vh;
+    margin: auto;
+    
 }
 
 
 
+.companiesTwo {
+  
+    width: 88%;
+    height: 69vh;
+    margin: auto;
+
+}
+
+
+/* Estilo da modal */
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal >  h1{
+    margin: 2% auto 3%;
+    font-size: 2.8rem;
+
+}
+
+.modal p{
+font-size: 1.4rem;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 54%;
+    height: 533px;
+    text-align: center;
+}
+
+#close-btn {
+    background-color: #ff9500;
+    color: #fff;
+    padding: 10px 20px;
+    width: 27%;
+    height: 49px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#close-btn:hover {
+    background-color: #e88e00;
+}
 

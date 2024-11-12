@@ -13,10 +13,17 @@
 <body>
     <header>
         <a href="#">
+            <img src="../img/img_Logo.png " class="logo-site" alt="Logo_Site">
             <h1 class="logo">ECOENERGY</h1>
         </a>
-        
-        <input type="text" placeholder="Pesquisar" id="inputSearch" class="search">
+
+
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar" id="inputSearch" class="search">
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
@@ -24,25 +31,40 @@
 
                 <li><a href="../html/equipe.html">Equipe</a></li>
                 <li><a href="../html/Sugestão.html">Sugestões</a></li>
+                <a href="#login" class="user-icon">
+                    <i class="fas fa-user-circle"></i>
+
+                </a>
             </ul>
         </nav>
     </header>
 
 
- <!-- Carrosel da pag -->
-
+    <!-- Carrosel da pag -->
     <section id="Banner">
-        <img src="../img/Banner_Solares.jpg" alt="imgdosite">
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="../img/banner_Solares2.jpg" alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+
+                <img src="../img/Banner_Solares.jpg" alt="Imagem 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/banner_Solares3.jpg" alt="Imagem 3">
+            </div>
+        </div>
     </section>
 
 
 
 
- <!-- Seção de boas vindas -->
-    <section id="sectionOne" >
+
+    <!-- Seção de boas vindas -->
+    <section id="sectionOne">
         <h1>Bem-vindo ao Site!</h1>
 
-        <img src="../img/mascote_Solares.png " alt="img do mascote solares">
+        <img src="../img/mascote_Solares2.png " alt="img do mascote solares">
         <p> Estamos muito felizes em ter você aqui. Aproveite o conteúdo e sinta-se à vontade para explorar todas as
             novidades. Se precisar de algo, estamos à disposição!</p>
     </section>
@@ -53,11 +75,15 @@
     <!-- Seção explicativa -->
     <section class="SectionTwo">
         <h2> Uma Fonte Renovável e Sustentável!</h2>
-       
+
 
 
         <div class="containerTwo">
-            <p>A energia solar é uma forma de energia limpa e renovável gerada a partir da luz do sol. Ao utilizar painéis solares fotovoltaicos, essa energia pode ser convertida diretamente em eletricidade, oferecendo uma alternativa sustentável aos combustíveis fósseis. Além de reduzir a emissão de gases de efeito estufa, a energia solar é uma solução eficiente e econômica a longo prazo, especialmente em áreas com alta incidência solar. </p>
+            <p>A energia solar é uma forma de energia limpa e renovável gerada a partir da luz do sol. Ao utilizar
+                painéis solares fotovoltaicos, essa energia pode ser convertida diretamente em eletricidade, oferecendo
+                uma alternativa sustentável aos combustíveis fósseis. Além de reduzir a emissão de gases de efeito
+                estufa, a energia solar é uma solução eficiente e econômica a longo prazo, especialmente em áreas com
+                alta incidência solar. </p>
 
         </div>
     </section>
@@ -69,7 +95,7 @@
 
     <h1 class="vantagens">Vantagem de usar energia solar!</h1>
     <section class="sectionThree">
-       
+
         <div class="grupo">
             <h2>Economia</h2>
             <p>Com a energia solar, você pode reduzir sua conta de energia mensal.</p>
@@ -102,58 +128,66 @@
         <h1 class="titleOne">Veja Quanto Você Poderia Economizar com Energia Solar!
         </h1>
 
-        <i class="fas fa-piggy-bank icon-economy "></i> 
-<p class="description">Com nossa ferramenta de estimativa, você pode ver o valor que poderia economizar ao adotar um sistema solar,baseado no seu consumo atual, localização e hábitos de uso. Mesmo que ainda não tenha painéis solares,descubra o potencial de economia e os benefícios sustentáveis que essa energia limpa e renovável pode oferece</p>
+        <i class="fas fa-piggy-bank icon-economy "></i>
+        <p class="description">Com nossa ferramenta de estimativa, você pode ver o valor que poderia economizar ao
+            adotar um sistema solar,baseado no seu consumo atual, localização e hábitos de uso. Mesmo que ainda não
+            tenha painéis solares,descubra o potencial de economia e os benefícios sustentáveis que essa energia limpa e
+            renovável pode oferece</p>
 
 
 
 
-           
-                <h1 class="titleTwo">A Economia e Sustentabilidade</h1>
-                <i class="fas fa-seedling  icon-sustainability "></i>
-                <p class="description">
-                    
-                    A energia solar não é apenas uma forma de economizar dinheiro; ela também representa um compromisso com o
-                    meio ambiente. Ao gerar sua própria energia, você diminui a pegada de carbono da sua casa e contribui para a
-                    preservação dos recursos naturais. </p>
-         
-         
+
+        <h1 class="titleTwo">A Economia e Sustentabilidade</h1>
+        <i class="fas fa-seedling  icon-sustainability "></i>
+        <p class="description">
+
+            A energia solar não é apenas uma forma de economizar dinheiro; ela também representa um compromisso com o
+            meio ambiente. Ao gerar sua própria energia, você diminui a pegada de carbono da sua casa e contribui para a
+            preservação dos recursos naturais. </p>
+
+
     </section>
 
-  
 
 
 
- 
+
+
     <section class="sectionFive">
 
         <h1 class="titleTwo">Vamos calcular o seu consumo?</h1>
-        <p class="description">Curioso para saber como a energia solar pode fazer a diferença na sua conta de luz? Com o cálculo correto, você poderá estimar a economia mensal e anual, entendendo o impacto direto na sua fatura e como a energia solar pode transformar seus gastos com eletricidade.</p>
+        <p class="description">Curioso para saber como a energia solar pode fazer a diferença na sua conta de luz? Com o
+            cálculo correto, você poderá estimar a economia mensal e anual, entendendo o impacto direto na sua fatura e
+            como a energia solar pode transformar seus gastos com eletricidade.</p>
 
         <div class="containerThree">
             <h2>Primeiro, solicite algumas informações principais para podermos personalizar os resultados!</h2>
 
 
-            <form id="solar-form">
-                <label for="system-capacity">Capacidade do Sistema Solar (kW):</label>
-                <input type="number" id="system-capacity" name="system-capacity" required>
-            
-                <label for="sun-hours">Horas de Sol por Dia:</label>
-                <input type="number" id="sun-hours" name="sun-hours" required>
-            
-                <label for="monthly-consumption">Consumo Mensal (kWh):</label>
-                <input type="number" id="monthly-consumption" name="monthly-consumption" required>
-            
-                <label for="cost-per-kwh">Custo por kWh (R$):</label>
-                <input type="number" id="cost-per-kwh" name="cost-per-kwh" required>
-            
+
+            <form id="solar-calculator">
+                <label for="solar-capacity">Capacidade do Sistema Solar (kW):</label>
+                <input type="number" id="solar-capacity" name="solar-capacity" required>
+
+                <label for="sunlight-hours">Horas de Sol por Dia:</label>
+                <input type="number" id="sunlight-hours" name="sunlight-hours" required>
+
+                <label for="monthly-usage">Consumo Mensal (kWh):</label>
+                <input type="number" id="monthly-usage" name="monthly-usage" required>
+
+                <label for="kwh-cost">Custo por kWh (R$):</label>
+                <input type="number" id="kwh-cost" name="kwh-cost" required>
+
                 <button type="submit">Calcular</button>
             </form>
-            
-            <div id="result">
-                <!-- Resultado da simulação será mostrado aqui -->
+
+            <div id="solar-result"></div>
+
+
+            <div id="solar-result">
+
             </div>
-            
 
 
         </div>
@@ -161,27 +195,34 @@
 
 
 
-<section class="sectionSix">
+    <section class="sectionSix">
 
-<div class="projectInformation">
+        <div class="projectInformation">
 
-    <h1 class="title">Junte-se aos Projetos de Empresas e Reduza Seus Custos com Energia Sustentável</h1>
+            <h1 class="title">Reduza custos com energia sustentável.</h1>
 
-<p class="sectionSixDescription">Se a sua comunidade ou organização precisa de soluções energéticas sustentáveis, temos a ajuda que você procura! Graças às parcerias com empresas responsáveis, podemos oferecer acesso a energia solar e outras fontes limpas, ajudando a reduzir custos e a melhorar a qualidade de vida. Junte-se a nós e aproveite os benefícios dessa iniciativa para garantir um futuro mais verde e acessível para todos. Entre em contato e saiba como podemos apoiar você!</p>
-<a href="../html/projetos.html" class="btn">Saber Mais</a>
-</div>
-</section>
+            <p class="sectionSixDescription">Se a sua comunidade ou organização precisa de soluções energéticas
+                sustentáveis, temos a ajuda que você procura! Graças às parcerias com empresas responsáveis, podemos
+                oferecer acesso a energia solar e outras fontes limpas, ajudando a reduzir custos e a melhorar a
+                qualidade de vida. Junte-se a nós e aproveite os benefícios dessa iniciativa para garantir um futuro
+                mais verde e acessível para todos. Entre em contato e saiba como podemos apoiar você!</p>
+            <a href="../html/projetos.html" class="btn">Saber Mais</a>
+        </div>
+    </section>
 
 
-<section class="sectionSeven">
-<div class="feedbackInformation">
+    <section class="sectionSeven">
+        <div class="feedbackInformation">
 
-    <h1 class="title">Sua Opinião é Muito Importante para Nós</h1>
-    <p class="sectionSevenDescription">Queremos ouvir o que você tem a dizer! Se você tem sugestões para melhorar nossos serviços ou deseja fazer uma reclamação, estamos aqui para ouvir. Seu feedback nos ajuda a crescer e a oferecer soluções ainda melhores para você. Deixe sua opinião e ajude-nos a criar um ambiente mais sustentável e eficiente para todos.</p>
-<a href="Sugestão.html" class="btn">Saber Mais</a>
-</div>
-   
-</section>
+            <h1 class="title">Sua Opinião é Muito Importante para Nós</h1>
+            <p class="sectionSevenDescription">Queremos ouvir o que você tem a dizer! Se você tem sugestões para
+                melhorar nossos serviços ou deseja fazer uma reclamação, estamos aqui para ouvir. Seu feedback nos ajuda
+                a crescer e a oferecer soluções ainda melhores para você. Deixe sua opinião e ajude-nos a criar um
+                ambiente mais sustentável e eficiente para todos.</p>
+            <a href="Sugestão.html" class="btn">Saber Mais</a>
+        </div>
+
+    </section>
 
 
 
@@ -189,8 +230,7 @@
     <footer>
         <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
     </footer>
-
-
+    <script src="../js/home.js"></script>
 </body>
 
 </html>

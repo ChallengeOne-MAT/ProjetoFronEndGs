@@ -1,0 +1,14 @@
+// logica da div
+const showInfoBtn = document.getElementById('show-info-btn');
+const modal = document.getElementById('modal');
+const closeBtn = document.getElementById('close-btn');
+
+// Mostrar a modal 
+showInfoBtn.addEventListener('click', function() {
+    modal.style.display = 'flex'; // Exibe a modal
+});
+
+// Fechar a modal 
+closeBtn.addEventListener('click', function() {
+    modal.style.display = 'none';
+});
