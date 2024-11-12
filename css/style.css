@@ -69,37 +69,51 @@ nav a:hover {
 a{
     text-decoration: none;
 }
+
+
+
+#Banner{
+    box-sizing: border-box;
+    margin-left: 17%;
+    border-radius: 31px;
+
+}
+
+
 /*primeira seção - boas vindas */
 
 #sectionOne {
-    padding: 4rem 2rem;
+
     text-align: center;
-    background-color: #1a1a1a;
-    margin: 1rem 0;
-    border: 2px solid #FFD700;
+  margin-top: 4%;
+ 
+   
 }
 
 
-#sectioOne h2 {
-
-    margin-bottom: 1rem;
+#sectionOne h1 {
     color: #FFD700;
-    font-size: 1.9rem;
+    font-size: 3.2rem;
+    margin-bottom: 1%;
 }
 
 
-#sectionOne h2:hover {
+#sectionOne h1:hover {
     color: #ffffff;
 }
 
 
-
+#sectionOne p{
+    font-size: 1.7rem;
+    width: 55%;
+    margin: 2.5% auto;
+}
 
 
 /* Segunda Seção - explicativa */
 .SectionTwo {
     color: white;
-    padding: 60px 20px;
+   
     text-align: center;
     
 }
@@ -111,13 +125,23 @@ a{
 
 }
 
-.containerTwo h2 {
-    font-size: 2.7rem;
+#sectionOne img{
+    height: auto;
+    width: 15%;
 }
 
-.containerTwo p {
-    font-size: 20px;
-    margin: 6% 0;
+.SectionTwo h2 {
+    font-size: 2.8rem;
+    padding-top: 7%;
+    border-top: 3px solid #FFD700;
+    width: 55%;
+    margin: auto;
+  
+}
+
+.SectionTwo p {
+    font-size: 1.6rem;
+    margin: 5% auto 1%;
 }
 
 
@@ -130,27 +154,32 @@ a{
     padding: 50px;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: 3px solid yellow;
 }
 
 .grupo {
     background-color: #2D2D2D; 
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
+    width: 20%;
+    height: 316px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease;
+    margin-top: 2.5%;
     
 }
 
+.vantagens{
+    font-size: 2.9rem;
+    text-align: center;
+}
 .grupo:hover {
     transform: scale(1.05);
     box-shadow: 0px 6px 12px rgba(255, 215, 0, 0.5); 
 }
 
 .grupo h2 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #FFD700;
     margin-bottom: 10px;
 }
@@ -163,7 +192,7 @@ a{
 
 
 
-.title{
+.titleOne{
 color: #fff;
 text-align:  center;
 margin: 3% auto;
@@ -179,7 +208,7 @@ font-family: 'Montserrat', sans-serif;
     width: 50%;
     text-align: center;
     margin:  3% auto 4%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -210,6 +239,11 @@ font-family: 'Montserrat', sans-serif;
     .containerDois{
 color: #ccc;
     }
+
+
+
+
+
 
 .secaoCalculo{
     color: #ccc;
