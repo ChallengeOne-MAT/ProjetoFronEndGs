@@ -17,7 +17,7 @@ body {
 /*cabecalho da pag*/
 
 header {
-    background-color: #ffd900;
+    background-color: #fbce47;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -217,7 +217,7 @@ font-family: 'Montserrat', sans-serif;
 .titleTwo{
     color: #fff;
     text-align:  center;
-    margin: 2% auto;
+    margin: 8% auto 2.5%;
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     
@@ -241,7 +241,30 @@ color: #ccc;
     }
 
 
+    .sectionFour {
+        margin-top: 6%;
+    }
+    
+.sectionFour .icon-economy {
+    color: #FFD700; 
+    font-size: 160px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
 
+
+.sectionFour .icon-sustainability {
+    color: #32CD32; 
+    font-size: 160px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.sectionFour i.fas {
+    margin-bottom: 5px; 
+}
 
 
 
@@ -252,15 +275,12 @@ color: #ccc;
 
 .sectionSix{
     width: 74%;
-    margin: 5% auto;
+    margin-top: 4%;
     height: 55vh;
     border: 3px solid #f39c12;
     border-radius: 19px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
 }
+
 
 
 .projectInformation{

@@ -102,7 +102,7 @@
         <h1 class="titleOne">Veja Quanto Você Poderia Economizar com Energia Solar!
         </h1>
 
-        <i class="fas fa-piggy-bank "></i> 
+        <i class="fas fa-piggy-bank icon-economy "></i> 
 <p class="description">Com nossa ferramenta de estimativa, você pode ver o valor que poderia economizar ao adotar um sistema solar,baseado no seu consumo atual, localização e hábitos de uso. Mesmo que ainda não tenha painéis solares,descubra o potencial de economia e os benefícios sustentáveis que essa energia limpa e renovável pode oferece</p>
 
 
@@ -120,8 +120,7 @@
          
     </section>
 
-        <p class="description">Curioso para saber como a energia solar pode fazer a diferença na sua conta de luz? Com
-            no
+  
 
 
 
@@ -129,8 +128,34 @@
     <section class="sectionFive">
 
         <h1 class="titleTwo">Vamos calcular o seu consumo?</h1>
+        <p class="description">Curioso para saber como a energia solar pode fazer a diferença na sua conta de luz? Com o cálculo correto, você poderá estimar a economia mensal e anual, entendendo o impacto direto na sua fatura e como a energia solar pode transformar seus gastos com eletricidade.</p>
+
         <div class="containerThree">
             <h2>Primeiro, solicite algumas informações principais para podermos personalizar os resultados!</h2>
+
+
+            <form id="solar-form">
+                <label for="system-capacity">Capacidade do Sistema Solar (kW):</label>
+                <input type="number" id="system-capacity" name="system-capacity" required>
+            
+                <label for="sun-hours">Horas de Sol por Dia:</label>
+                <input type="number" id="sun-hours" name="sun-hours" required>
+            
+                <label for="monthly-consumption">Consumo Mensal (kWh):</label>
+                <input type="number" id="monthly-consumption" name="monthly-consumption" required>
+            
+                <label for="cost-per-kwh">Custo por kWh (R$):</label>
+                <input type="number" id="cost-per-kwh" name="cost-per-kwh" required>
+            
+                <button type="submit">Calcular</button>
+            </form>
+            
+            <div id="result">
+                <!-- Resultado da simulação será mostrado aqui -->
+            </div>
+            
+
+
         </div>
     </section>
 
