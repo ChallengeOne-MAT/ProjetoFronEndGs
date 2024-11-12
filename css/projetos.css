@@ -70,7 +70,6 @@ a{
 }
 
 
-/* */
 
 
 h1 {
@@ -84,13 +83,47 @@ display: flex;
 }
 /* Estilo da empresa */
 .company {
-    background-color: #ffffff;
+border: 2px solid #ffd900;
     border-radius: 19px;
     width: 69%;
     margin: 9% auto;
     height: 493px;
     color: rgb(39, 45, 49);
 }
+
+
+
+
+
+/* Container para as empresas */
+.companiesOne {
+    width: 88%;
+    height: 69vh;
+    margin: auto;
+    text-align: center;
+}
+.companiesOne h1{
+    color: #e88e00;
+
+font-size: 2.9rem;
+padding: 5% 0 3%;
+}
+
+
+.companiesOne h2{
+    color: #e88e00;
+
+    font-size: 1.8rem;
+
+    margin: 4% 0 1%;
+  
+    }
+
+.companiesOne p{
+font-size: 1.4rem;
+color: #f0e9e9;
+
+    }
 
 
 
@@ -102,9 +135,8 @@ display: flex;
     text-decoration: none;
     font-size: 1.5rem;
     border-radius: 9px;
-    position: relative;
-    top: 3%;
-    left: 30.5%;
+   margin-top: 7%;
+    
     text-align: center;
 }
 
@@ -113,23 +145,42 @@ display: flex;
     color: #ffffff;
 }
 
-/* Container para as empresas */
-.companiesOne {
-    width: 88%;
-    height: 69vh;
-    margin: auto;
-    
-}
-
-
 
 .companiesTwo {
   
     width: 88%;
     height: 69vh;
     margin: auto;
+    text-align: center;
 
 }
+
+
+
+.companiesTwo h1{
+    color: #e88e00;
+
+    font-size: 2.9rem;
+    padding: 5% 0 3%;
+    }
+    
+    
+    .companiesTwo h2{
+        color: #e88e00;
+
+        font-size: 1.8rem;
+    
+        margin: 4% 0 1%;
+      
+        }
+    
+    .companiesTwo p{
+    font-size: 1.4rem;
+    color: #f0e9e9;
+    
+        }
+
+
 
 
 /* Estilo da modal */

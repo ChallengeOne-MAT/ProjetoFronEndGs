@@ -31,13 +31,57 @@
 
                 <li><a href="../html/equipe.html">Equipe</a></li>
                 <li><a href="../html/Sugestão.html">Sugestões</a></li>
-                <a href="#login" class="user-icon">
+              
+                <a href="#login" class="user-icon" id="openRegistrationPopupButton">
                     <i class="fas fa-user-circle"></i>
 
                 </a>
             </ul>
         </nav>
     </header>
+
+
+
+
+
+
+
+
+    <div class="registration-popup hidden" id="userRegistrationPopup">
+        <div class="popup-content">
+            <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
+            <h2>Cadastro de Usuário</h2>
+            <div class="user-type-selector">
+                <button id="individualButton">Usuário Individual</button>
+                <button id="companyButton">Empresa</button>
+            </div>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div id="companyFields" class="hidden">
+                    <div class="form-group">
+                        <label for="companyName">Nome da Empresa:</label>
+                        <input type="text" id="companyName" name="companyName">
+                    </div>
+                    <div class="form-group">
+                        <label for="cnpj">CNPJ:</label>
+                        <input type="text" id="cnpj" name="cnpj">
+                    </div>
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
 
 
     <!-- Carrosel da pag -->
@@ -182,7 +226,6 @@
                 <button type="submit">Calcular</button>
             </form>
 
-            <div id="solar-result"></div>
 
 
             <div id="solar-result">
