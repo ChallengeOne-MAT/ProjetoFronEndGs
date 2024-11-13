@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
 let inactivityTimeout;
 let isUserInactive = false;
 
-// Função para exibir o aviso
+// Função do aviso
 function showInactivityWarning() {
     const warningDiv = document.getElementById('inactivity-warning');
     warningDiv.style.display = 'block';
@@ -109,18 +109,18 @@ function showInactivityWarning() {
 
 // Função para reiniciar o temporizador de inatividade
 function resetInactivityTimer() {
-    clearTimeout(inactivityTimeout); // Limpa o temporizador anterior
+    clearTimeout(inactivityTimeout);
 
-    // Se o usuário não tiver feito nada em X minutos (5 minutos no exemplo), mostrar o aviso
+ 
     inactivityTimeout = setTimeout(() => {
         if (!isUserInactive) {
             isUserInactive = true;
             showInactivityWarning();
         }
-    }, 1 * 60 * 1000); // 5 minutos (em milissegundos)
+    }, 1 * 60 * 1000); 
 }
 
-// Funções para capturar atividade do usuário (movimento do mouse, clique, teclado)
+// Funções de  capturar da atividade do usuário
 function userActivity() {
     isUserInactive = false;
     resetInactivityTimer();
@@ -134,15 +134,14 @@ document.addEventListener('keydown', userActivity);
 // Inicializa o temporizador
 resetInactivityTimer();
 
-// Função para lidar com a resposta do usuário (sim ou não)
+//logica de resposta do usuário (sim ou não)
 document.getElementById('yes-notifications').addEventListener('click', () => {
-    // Aqui você pode salvar a escolha do usuário ou iniciar a funcionalidade de notificações
+  
     alert('Você receberá notificações sobre inatividade de energia.');
     document.getElementById('inactivity-warning').style.display = 'none';
 });
 
 document.getElementById('no-notifications').addEventListener('click', () => {
-    // O usuário não quer receber notificações, pode fechar o aviso
     alert('Você não receberá notificações sobre inatividade de energia.');
     document.getElementById('inactivity-warning').style.display = 'none';
 });
