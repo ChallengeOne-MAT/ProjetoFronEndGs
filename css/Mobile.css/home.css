@@ -1,7 +1,190 @@
 @media (max-width: 576px) {
 
+*{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+box-sizing: border-box;
+}
 
-body{
-    background-color: aliceblue;
+    header {
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .logo-site {
+        width: 25%;
+        right: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.1rem;
+        margin-top: 1%;
+    }
+
+    .search-container .search {
+        width: 90%;
+    }
+
+    #Banner {
+        width: 90%;  
+        margin:  19% auto 0;
+    }
+
+    .carousel-item img {
+        height: 230px;  
+    }
+
+
+/*botao do login*/
+
+    .form-group input,
+    .form-group button {
+        width: 100%;
+    }
+
+    #btn-cadastro {
+        width: 100%;
+        margin: 16% auto 0 0;
+    }
+
+    /* Ajuste do botão de registro */
+    .user-type-selector button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .sectionThree h2{
+background-color: aliceblue;
+font-size: 1.1rem;
+    }
+
+
+    .containerTwo{
+        margin: 5% auto 17%;
+    }
+    .containerTwo img{
+height: 1%;
+height: 33%;
+display: flex;
+flex-direction: column;
+    }
 }
+
+
+
+
+#sectionOne p{
+    font-size: 1.1rem;
+    margin: 9% auto 5%;
+    width: 80%;
 }
+
+.SectionTwo h2{
+font-size: 1.8rem;
+width: 90%;
+}
+.containerTwo{
+    width: 90%;
+}
+.containerTwo p{
+color: aquamarine;
+width: 98%;
+}
+
+.vantagens{
+    font-size: 1.8rem;
+}
+
+.sectionThree{
+    display: flex;
+    flex-direction: column;
+}
+.grupo{
+    width: 86%;
+    margin: auto;
+}
+.grupo h2{
+    font-size: 1.6rem;
+background-color: rgba(250, 235, 215, 0);
+}
+.grupo p{
+    font-size: 1.2rem;
+}
+
+
+.sectionFour{
+display: block;
+}
+
+.titleOne{
+    font-size: 1.7rem;
+    width: 100%;
+
+}
+
+#containerEconomy{
+margin: auto;
+}
+
+.sectionFive h1{
+    font-size: 1.6rem;
+    width: 80%;
+}
+.sectionFive p{
+    font-size: 1.2rem;
+}
+
+.containerThree{
+    width: 88%;
+}
+#solar-calculator{
+width: 85%;
+height: 523px;
+}
+#solar-calculator input{
+    height: 40px;
+}
+
+#solar-calculator label{
+font-size: 1rem;
+
+}
+
+
+.btn {
+width: 62%;
+}
+
+
+.sectionSix{
+margin: auto;
+}
+
+
+.sectionSeven{
+margin: auto;
+}
+
+
+.sectionEight{
+    margin: 11% auto 8%;
+}
+
+
+
+.sectionEight h1{
+    font-size: 1.5rem;
+    margin: 11% 0 5%; 
+    }
+    
+    
+
+    .sectionEight i{
+        font-size: 1rem;
+        margin: auto;
+    }
+    

@@ -117,7 +117,7 @@ function resetInactivityTimer() {
             isUserInactive = true;
             showInactivityWarning();
         }
-    }, 1 * 60 * 1000); 
+    }, 7 * 60 * 1000); 
 }
 
 // Funções de  capturar da atividade do usuário

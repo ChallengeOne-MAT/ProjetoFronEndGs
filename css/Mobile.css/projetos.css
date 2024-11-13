@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.companiesOne{
+width: 100%;
+}
+
+
+.companiesOne h1{
+font-size: 2.5rem;
+}
+
+.companiesTwo{
+    width: 100%;
+    }
+
+    .companiesTwo h1{
+        font-size: 2.5rem;
+
+    }
+
+.company{
+    width: 84%;
+}
+
+
+
+.modal-content{
+width: 33%;
+position: relative;
+right: 30%;
+bottom: 33%;
+}
+
+}
