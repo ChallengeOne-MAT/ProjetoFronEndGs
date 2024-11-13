@@ -340,6 +340,7 @@ font-size: 1.4rem;
     border-radius: 10px;
     width: 54%;
     height: 623px;
+    overflow-y: scroll;
 }
 
 

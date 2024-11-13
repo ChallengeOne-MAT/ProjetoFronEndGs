@@ -115,4 +115,28 @@ margin: auto;
     font-size: 12rem;
     margin: 1.5% auto 4%; 
    color: #ffd900;
+   
+    }
+
+    .custom-icon:hover{
+    
+        transform: scale(1.2); 
+        filter: brightness(1.2);  
+    }
+  
+
+.containerChatbot{
+    text-align: center;
+    margin-top: 10%;
+    }
+
+    .containerChatbot h1{
+        font-size: 3.8rem;
+        margin: 1% auto 2%
+    }
+
+    .containerChatbot p{
+        font-size: 1.6rem;
+        width: 60%;
+        margin: auto;
     }
