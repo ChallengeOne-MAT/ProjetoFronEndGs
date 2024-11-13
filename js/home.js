@@ -145,3 +145,31 @@ document.getElementById('no-notifications').addEventListener('click', () => {
     alert('Você não receberá notificações sobre inatividade de energia.');
     document.getElementById('inactivity-warning').style.display = 'none';
 });
+
+
+
+document.addEventListener('keydown', function(event) {
+    const sections = document.querySelectorAll("section");
+    let currentIndex = 0;
+
+    // Encontrar a seção atual que está visível no viewport
+    sections.forEach((section, index) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+            currentIndex = index;
+        }
+    });
+
+    // Detecta as setas para cima e para baixo
+    if (event.key === "ArrowDown") {
+        event.preventDefault();
+        if (currentIndex < sections.length - 1) {
+            sections[currentIndex + 1].scrollIntoView({ behavior: "smooth" });
+        }
+    } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        if (currentIndex > 0) {
+            sections[currentIndex - 1].scrollIntoView({ behavior: "smooth" });
+        }
+    }
+});

@@ -1,5 +1,11 @@
 @media (max-width: 576px) {
 
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+
 *{
     width: 100%;
     margin: 0;
@@ -65,14 +71,16 @@ font-size: 1.1rem;
 
     .containerTwo{
         margin: 5% auto 17%;
+        display: block;
     }
     .containerTwo img{
 height: 1%;
-height: 33%;
+height: 42%;
+margin:  5% auto 2% ;
 display: flex;
 flex-direction: column;
     }
-}
+
 
 
 
@@ -92,11 +100,13 @@ width: 90%;
 }
 .containerTwo p{
 color: aquamarine;
-width: 98%;
+width: 90%;
+font-size: 1.1rem;
 }
 
 .vantagens{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: 34%  auto 1%;
 }
 
 .sectionThree{
@@ -126,12 +136,20 @@ display: block;
 
 }
 
+
+
 #containerEconomy{
 margin: auto;
 }
 
+
+.icon-economy{
+
+}
+
 .sectionFive h1{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+    margin-bottom: 10%;
     width: 80%;
 }
 .sectionFive p{
@@ -140,6 +158,13 @@ margin: auto;
 
 .containerThree{
     width: 88%;
+    height: 733px;
+}
+
+
+.containerThree h2{
+font-size: 1.2rem;
+margin: 3% auto 5%;
 }
 #solar-calculator{
 width: 85%;
@@ -187,4 +212,5 @@ margin: auto;
         font-size: 1rem;
         margin: auto;
     }
-    
+
+}
