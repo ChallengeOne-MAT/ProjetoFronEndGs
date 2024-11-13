@@ -27,3 +27,41 @@ ventusShowInfoBtn.addEventListener('click', function() {
 ventusCloseBtn.addEventListener('click', function() {
     ventusModal.style.display = 'none';
 });
+
+
+
+/*logica do loggin*/
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const openRegistrationPopupButton = document.getElementById("openRegistrationPopupButton");
+    const closeRegistrationPopupButton = document.getElementById("closeRegistrationPopupButton");
+    const registrationPopup = document.getElementById("userRegistrationPopup");
+    const individualButton = document.getElementById("individualButton");
+    const companyButton = document.getElementById("companyButton");
+    const companyFields = document.getElementById("companyFields");
+
+    // Abrir o popup
+    openRegistrationPopupButton.addEventListener("click", () => {
+        registrationPopup.classList.remove("hidden");
+    });
+
+    // Fechar o popup 
+    closeRegistrationPopupButton.addEventListener("click", () => {
+        registrationPopup.classList.add("hidden");
+    });
+
+    // Mostrar e empresa
+    individualButton.addEventListener("click", () => {
+        companyFields.classList.add("hidden");
+    });
+
+    // Mostrar  usuário
+    companyButton.addEventListener("click", () => {
+        companyFields.classList.remove("hidden");
+    });
+});
+
+
+
+

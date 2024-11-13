@@ -1,3 +1,36 @@
+
+/*logica para pesquisa da pag*/
+
+document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.getElementById("inputSearch");
+    const searchButton = document.querySelector(".search-icon");
+
+    searchButton.addEventListener("click", function() {
+        const query = searchInput.value.toLowerCase();
+
+        const keywordDestinations = {
+            "início": "#",
+            "projetos": "../html/projetos.html",
+            "equipe": "../html/equipe.html",
+            "sugestões": "../html/Sugestão.html",
+            "vantagens": ".sectionThree",
+            "opiniao": ".sectionSeven"
+        };
+
+        if (keywordDestinations[query]) {
+            window.location.href = keywordDestinations[query];
+        } else {
+            alert("Palavra-chave não encontrada.");
+        }
+    });
+});
+
+
+
+
+
+/*logica para calculo de energia*/
+
 document.getElementById("solar-calculator").addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -27,6 +60,9 @@ document.getElementById("solar-calculator").addEventListener("submit", function(
 });
 
 
+
+
+/*logica do loggin*/
 
 
 document.addEventListener("DOMContentLoaded", function () {

@@ -12,8 +12,8 @@
 
 <body>
     <header>
+        <img src="../img/img_Logo2.png " class="logo-site" alt="Logo_Site">
         <a href="#">
-            <img src="../img/img_Logo.png " class="logo-site" alt="Logo_Site">
             <h1 class="logo">ECOENERGY</h1>
         </a>
 
@@ -44,7 +44,7 @@
 
 
 
-
+                        <!--cadastro do usuario-->
 
 
     <div class="registration-popup hidden" id="userRegistrationPopup">
@@ -74,7 +74,7 @@
                         <input type="text" id="cnpj" name="cnpj">
                     </div>
                 </div>
-                <button type="submit">Cadastrar</button>
+                <button type="submit" id="btn-cadastro">Cadastrar</button>
             </form>
         </div>
     </div>
@@ -106,9 +106,7 @@
 
     <!-- Seção de boas vindas -->
     <section id="sectionOne">
-        <h1>Bem-vindo ao Site!</h1>
-
-        <img src="../img/mascote_Solares2.png " alt="img do mascote solares">
+       
         <p> Estamos muito felizes em ter você aqui. Aproveite o conteúdo e sinta-se à vontade para explorar todas as
             novidades. Se precisar de algo, estamos à disposição!</p>
     </section>
@@ -123,12 +121,9 @@
 
 
         <div class="containerTwo">
-            <p>A energia solar é uma forma de energia limpa e renovável gerada a partir da luz do sol. Ao utilizar
-                painéis solares fotovoltaicos, essa energia pode ser convertida diretamente em eletricidade, oferecendo
-                uma alternativa sustentável aos combustíveis fósseis. Além de reduzir a emissão de gases de efeito
-                estufa, a energia solar é uma solução eficiente e econômica a longo prazo, especialmente em áreas com
-                alta incidência solar. </p>
-
+            <img src="../img/mascote_Solares33.png" alt="cara_do_mascote">
+            <p>A energia solar é uma fonte limpa e renovável, convertendo luz solar em eletricidade através de painéis fotovoltaicos. É sustentável, reduz emissões e é econômica a longo prazo, especialmente em áreas ensolaradas. </p>
+<img src="../img/mascote_Solares33.png" alt="cara_do_mascote">
         </div>
     </section>
 
@@ -142,19 +137,19 @@
 
         <div class="grupo">
             <h2>Economia</h2>
-            <p>Com a energia solar, você pode reduzir sua conta de energia mensal.</p>
+            <p class="neon-text"  >Com a energia solar, você pode reduzir sua conta de energia mensal.</p>
 
         </div>
 
         <div class="grupo">
             <h2>Sustentabilidade</h2>
-            <p>ontribua para o meio ambiente usando uma energia limpa e renovável.</p>
+            <p class="neon-text">ontribua para o meio ambiente usando uma energia limpa e renovável.</p>
 
         </div>
 
         <div class="grupo">
-            <h2>Independência Energéticas</h2>
-            <p>Com a energia solar, você pode se tornar menos dependente da rede elétrica.</p>
+            <h2>Autossuficiência</h2>
+            <p class="neon-text">Com a energia solar, você pode se tornar menos dependente da rede elétrica.</p>
 
         </div>
     </section>
@@ -168,27 +163,26 @@
 
     <section class="sectionFour">
 
+<div id="containerEconomy">
 
-        <h1 class="titleOne">Veja Quanto Você Poderia Economizar com Energia Solar!
-        </h1>
+    <h1 class="titleOne">Economize com energia solar!
+    </h1>
 
-        <i class="fas fa-piggy-bank icon-economy "></i>
-        <p class="description">Com nossa ferramenta de estimativa, você pode ver o valor que poderia economizar ao
-            adotar um sistema solar,baseado no seu consumo atual, localização e hábitos de uso. Mesmo que ainda não
-            tenha painéis solares,descubra o potencial de economia e os benefícios sustentáveis que essa energia limpa e
-            renovável pode oferece</p>
+    <i class="fas fa-piggy-bank icon-economy "></i>
+    <p class="description">Com nossa ferramenta, calcule a economia ao adotar energia solar, considerando consumo, localização e hábitos, e descubra os benefícios dessa energia limpa e renovável</p>
+</div>
 
+<div id="containerSustainable ">
 
+    
+    <h1 class="titleTwo">A Economia e Sustentabilidade</h1>
+    <i class="fas fa-seedling  icon-sustainability "></i>
+    <p class="description">
 
+        A energia solar não só ajuda a economizar dinheiro, mas também reduz a pegada de carbono e contribui para a preservação dos recursos naturais. </p>
+</div>
+      
 
-
-        <h1 class="titleTwo">A Economia e Sustentabilidade</h1>
-        <i class="fas fa-seedling  icon-sustainability "></i>
-        <p class="description">
-
-            A energia solar não é apenas uma forma de economizar dinheiro; ela também representa um compromisso com o
-            meio ambiente. Ao gerar sua própria energia, você diminui a pegada de carbono da sua casa e contribui para a
-            preservação dos recursos naturais. </p>
 
 
     </section>
@@ -200,13 +194,18 @@
 
     <section class="sectionFive">
 
-        <h1 class="titleTwo">Vamos calcular o seu consumo?</h1>
-        <p class="description">Curioso para saber como a energia solar pode fazer a diferença na sua conta de luz? Com o
-            cálculo correto, você poderá estimar a economia mensal e anual, entendendo o impacto direto na sua fatura e
-            como a energia solar pode transformar seus gastos com eletricidade.</p>
+        <h1 class="">Vamos calcular o seu consumo?</h1>
+        <p class="">Saiba como a energia solar pode reduzir sua conta de luz, estimando a economia mensal e anual e mostrando o impacto direto na sua fatura.</p>
 
         <div class="containerThree">
-            <h2>Primeiro, solicite algumas informações principais para podermos personalizar os resultados!</h2>
+            <h2>Forneça informações principais para personalizar os resultados! </h2>
+
+
+
+
+
+
+            </h2>
 
 
 
@@ -244,11 +243,7 @@
 
             <h1 class="title">Reduza custos com energia sustentável.</h1>
 
-            <p class="sectionSixDescription">Se a sua comunidade ou organização precisa de soluções energéticas
-                sustentáveis, temos a ajuda que você procura! Graças às parcerias com empresas responsáveis, podemos
-                oferecer acesso a energia solar e outras fontes limpas, ajudando a reduzir custos e a melhorar a
-                qualidade de vida. Junte-se a nós e aproveite os benefícios dessa iniciativa para garantir um futuro
-                mais verde e acessível para todos. Entre em contato e saiba como podemos apoiar você!</p>
+            <p class="sectionSixDescription">Oferecemos soluções energéticas sustentáveis, como energia solar, para reduzir custos e melhorar a qualidade de vida. Entre em contato para saber mais!</p>
             <a href="../html/projetos.html" class="btn">Saber Mais</a>
         </div>
     </section>
@@ -258,17 +253,32 @@
         <div class="feedbackInformation">
 
             <h1 class="title">Sua Opinião é Muito Importante para Nós</h1>
-            <p class="sectionSevenDescription">Queremos ouvir o que você tem a dizer! Se você tem sugestões para
-                melhorar nossos serviços ou deseja fazer uma reclamação, estamos aqui para ouvir. Seu feedback nos ajuda
-                a crescer e a oferecer soluções ainda melhores para você. Deixe sua opinião e ajude-nos a criar um
-                ambiente mais sustentável e eficiente para todos.</p>
+            <p class="sectionSevenDescription">Estamos abertos ao seu feedback! Se tiver sugestões ou reclamações, compartilhe conosco para ajudarmos a melhorar nossos serviços e criar um ambiente mais eficiente e sustentável.</p>
             <a href="Sugestão.html" class="btn">Saber Mais</a>
         </div>
 
     </section>
+    <section class="sectionEight">
+        <h1>Skills Ultilizadas</h1>
+        <i class="fab fa-html5 icon-html"></i>
+        <i class="fab fa-css3-alt icon-css"></i>
+        <i class="fab fa-js-square icon-js"></i>
+        <i class="fas fa-database icon-db"></i>
+        <i class="fab fa-java icon-java"></i>
+        <i class="fab fa-python icon-python"></i>
+      </section>
+      
 
 
+      <section class="sectionNine">
+        <h1> PRINCIPAIS PARCERIAS</h1>
 
+        <img src="https://th.bing.com/th/id/OIP.mFrcuASp-sEO2hC2V4DFHgAAAA?rs=1&pid=ImgDetMain" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/sr/thumb/9/96/FIA_logo.svg/120px-FIA_logo.svg.png" alt="">
+        <img src="https://th.bing.com/th/id/OIP.RJqbx7rjVKErfu5W48QvngAAAA?w=240&h=123&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        
+
+      </section>
 
     <footer>
         <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
