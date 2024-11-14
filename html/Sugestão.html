@@ -18,22 +18,50 @@
    
 
     <header>
+        <img src="../img/img_Logo2.png " class="logo-site" alt="Logo_Site">
         <a href="#">
             <h1 class="logo">ECOENERGY</h1>
         </a>
-        
-        <input type="text" placeholder="Pesquisar" id="inputSearch" class="search">
+
+
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar" id="inputSearch" class="search">
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+       
+       <!-- Botão do Menu Hambúrguer -->
+       <input type="checkbox" class="menu_toggle" id="menu-toggle">
+       <label class="menu_btn" for="menu-toggle">
+           <span></span>
+       </label>
+
+       <!-- Navegação -->
+       <nav class="menu_box">
+           <ul>
+               <li><a href="../html/index.html" class="menu_item">Início</a></li>
+               <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
+               <li><a href="../html/equipe.html" class="menu_item">Equipe</a></li>
+               <li><a href="../html/Sugestão.html" class="menu_item">Sugestões</a></li>
+           </ul>
+       </nav>
+       
         <nav>
             <ul>
                 <li><a href="../html/index.html">Início</a></li>
                 <li><a href="../html/projetos.html">Projetos</a></li>
-
                 <li><a href="../html/equipe.html">Equipe</a></li>
-                <li><a href="../html/Sugestão.html">Sugestões</a></li>
+                <li><a href="#">Sugestões</a></li>
+
+                <a href="#login" class="user-icon" id="openRegistrationPopupButton">
+                    <i class="fas fa-user-circle"></i>
+
+                </a>
             </ul>
         </nav>
     </header>
-
+    
     <main>
 <div class="containerOpinion">
     <h1>Sua Opinião Importa!</h1>

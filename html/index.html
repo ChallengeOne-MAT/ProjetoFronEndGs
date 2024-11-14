@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<!--links do css para dispositivos-->
+    <!--links do css para dispositivos-->
     <link rel="stylesheet" href="../css/Mobile.css/home.css">
-<link rel="stylesheet" href="../css/TabletEmPe/home.css">
+    <link rel="stylesheet" href="../css/TabletEmPe/home.css">
 
 
 </head>
@@ -29,14 +29,30 @@
                 <i class="fas fa-search"></i>
             </button>
         </div>
+       
+       <!-- Botão do Menu Hambúrguer -->
+       <input type="checkbox" class="menu_toggle" id="menu-toggle">
+       <label class="menu_btn" for="menu-toggle">
+           <span></span>
+       </label>
+
+       <!-- Navegação -->
+       <nav class="menu_box">
+           <ul>
+               <li><a href="../html/index.html" class="menu_item">Início</a></li>
+               <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
+               <li><a href="../html/equipe.html" class="menu_item">Equipe</a></li>
+               <li><a href="../html/Sugestão.html" class="menu_item">Sugestões</a></li>
+           </ul>
+       </nav>
+       
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
                 <li><a href="../html/projetos.html">Projetos</a></li>
-
                 <li><a href="../html/equipe.html">Equipe</a></li>
                 <li><a href="../html/Sugestão.html">Sugestões</a></li>
-              
+
                 <a href="#login" class="user-icon" id="openRegistrationPopupButton">
                     <i class="fas fa-user-circle"></i>
 
@@ -46,16 +62,16 @@
     </header>
 
 
-<!-- A Div que aparece após a inatividade -->
-<div id="inactivity-warning" class="inactivity-warning">
-    <p>Você está inativo há algum tempo. Gostaria de receber notificações sobre inatividade de energia?</p>
-    <button id="yes-notifications">Sim</button>
-    <button id="no-notifications">Não</button>
-</div>
+    <!-- A Div que aparece após a inatividade -->
+    <div id="inactivity-warning" class="inactivity-warning">
+        <p>Você está inativo há algum tempo. Gostaria de receber notificações sobre inatividade de energia?</p>
+        <button id="yes-notifications">Sim</button>
+        <button id="no-notifications">Não</button>
+    </div>
 
 
 
-                        <!--cadastro -->
+    <!--cadastro -->
 
 
     <div class="registration-popup hidden" id="userRegistrationPopup">
@@ -111,7 +127,7 @@
                 </div>
 
 
-                
+
                 <button type="submit" id="btn-cadastro">Cadastrar</button>
             </form>
         </div>
@@ -144,7 +160,7 @@
 
     <!-- Seção de boas vindas -->
     <section id="sectionOne">
-       
+
         <p> Estamos muito felizes em ter você aqui. Aproveite o conteúdo e sinta-se à vontade para explorar todas as
             novidades. Se precisar de algo, estamos à disposição!</p>
     </section>
@@ -160,8 +176,10 @@
 
         <div class="containerTwo">
             <img src="../img/mascote_Solares33.png" alt="cara_do_mascote">
-            <p>A energia solar é uma fonte limpa e renovável, convertendo luz solar em eletricidade através de painéis fotovoltaicos. É sustentável, reduz emissões e é econômica a longo prazo, especialmente em áreas ensolaradas. </p>
-<img src="../img/Mascote_Eolico.png" alt="cara_do_mascote">
+            <p>A energia solar é uma fonte limpa e renovável, convertendo luz solar em eletricidade através de painéis
+                fotovoltaicos. É sustentável, reduz emissões e é econômica a longo prazo, especialmente em áreas
+                ensolaradas. </p>
+            <img src="../img/Mascote_Eolico.png" alt="cara_do_mascote">
         </div>
     </section>
 
@@ -175,7 +193,7 @@
 
         <div class="grupo">
             <h2>Economia</h2>
-            <p class="neon-text"  >Com a energia solar, você pode reduzir sua conta de energia mensal.</p>
+            <p class="neon-text">Com a energia solar, você pode reduzir sua conta de energia mensal.</p>
 
         </div>
 
@@ -201,25 +219,27 @@
 
     <section class="sectionFour">
 
-<div id="containerEconomy">
+        <div id="containerEconomy">
 
-    <h1 class="titleOne">Economize com energia solar!
-    </h1>
+            <h1 class="titleOne">Economize com energia solar!
+            </h1>
 
-    <i class="fas fa-piggy-bank icon-economy "></i>
-    <p class="description">Com nossa ferramenta, calcule a economia ao adotar energia solar, considerando consumo, localização e hábitos, e descubra os benefícios dessa energia limpa e renovável</p>
-</div>
+            <i class="fas fa-piggy-bank icon-economy "></i>
+            <p class="description">Com nossa ferramenta, calcule a economia ao adotar energia solar, considerando
+                consumo, localização e hábitos, e descubra os benefícios dessa energia limpa e renovável</p>
+        </div>
 
-<div id="containerSustainable ">
+        <div id="containerSustainable ">
 
-    
-    <h1 class="titleTwo">A Economia e Sustentabilidade</h1>
-    <i class="fas fa-seedling  icon-sustainability "></i>
-    <p class="description">
 
-        A energia solar não só ajuda a economizar dinheiro, mas também reduz a pegada de carbono e contribui para a preservação dos recursos naturais. </p>
-</div>
-      
+            <h1 class="titleTwo">A Economia e Sustentabilidade</h1>
+            <i class="fas fa-seedling  icon-sustainability "></i>
+            <p class="description">
+
+                A energia solar não só ajuda a economizar dinheiro, mas também reduz a pegada de carbono e contribui
+                para a preservação dos recursos naturais. </p>
+        </div>
+
 
 
 
@@ -233,7 +253,8 @@
     <section class="sectionFive">
 
         <h1 class="">Vamos calcular o seu consumo?</h1>
-        <p class="">Saiba como a energia solar pode reduzir sua conta de luz, estimando a economia mensal e anual e mostrando o impacto direto na sua fatura.</p>
+        <p class="">Saiba como a energia solar pode reduzir sua conta de luz, estimando a economia mensal e anual e
+            mostrando o impacto direto na sua fatura.</p>
 
         <div class="containerThree">
             <h2>Forneça informações principais para personalizar os resultados! </h2>
@@ -281,7 +302,8 @@
 
             <h1 class="title">Reduza custos com energia sustentável.</h1>
 
-            <p class="sectionSixDescription">Oferecemos soluções energéticas sustentáveis, como energia solar, para reduzir custos e melhorar a qualidade de vida. Entre em contato para saber mais!</p>
+            <p class="sectionSixDescription">Oferecemos soluções energéticas sustentáveis, como energia solar, para
+                reduzir custos e melhorar a qualidade de vida. Entre em contato para saber mais!</p>
             <a href="../html/projetos.html" class="btn">Saber Mais</a>
         </div>
     </section>
@@ -291,7 +313,9 @@
         <div class="feedbackInformation">
 
             <h1 class="title">Sua Opinião é Muito Importante para Nós</h1>
-            <p class="sectionSevenDescription">Estamos abertos ao seu feedback! Se tiver sugestões ou reclamações, compartilhe conosco para ajudarmos a melhorar nossos serviços e criar um ambiente mais eficiente e sustentável.</p>
+            <p class="sectionSevenDescription">Estamos abertos ao seu feedback! Se tiver sugestões ou reclamações,
+                compartilhe conosco para ajudarmos a melhorar nossos serviços e criar um ambiente mais eficiente e
+                sustentável.</p>
             <a href="Sugestão.html" class="btn">Saber Mais</a>
         </div>
 
@@ -304,19 +328,23 @@
         <i class="fas fa-database icon-db"></i>
         <i class="fab fa-java icon-java"></i>
         <i class="fab fa-python icon-python"></i>
-      </section>
-      
+    </section>
 
 
-      <section class="sectionNine">
-        <h1> PRINCIPAIS PARCERIAS</h1>
 
-        <img src="https://th.bing.com/th/id/OIP.mFrcuASp-sEO2hC2V4DFHgAAAA?rs=1&pid=ImgDetMain" alt="">
-        <img src="https://upload.wikimedia.org/wikipedia/sr/thumb/9/96/FIA_logo.svg/120px-FIA_logo.svg.png" alt="">
-        <img src="https://th.bing.com/th/id/OIP.RJqbx7rjVKErfu5W48QvngAAAA?w=240&h=123&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+    <section class="sectionNine">
+        <div class="containerParcerias">
+            <h1> PRINCIPAIS PARCERIAS</h1>
+            <img src="../img/empresaParceira_SAP.png" alt="">
+            <img src="../img/empresaParceira_FIA.png" alt="">
+            <img src="../img/empresaParceira_ULTRAGAZ.png" alt="">
+            <img src="../img/empresaParceira_ULTRACARGO.png" alt="">
+            <img src="../img/empressaParceira_MAHINDRA.png" alt="">
+
+        </div>
         
 
-      </section>
+    </section>
 
     <footer>
         <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>

@@ -1,70 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipe de Desenvolvedores</title>
     <link rel="stylesheet" href="../css/equipe.css">
-<link rel="stylesheet" href="../css/Mobile.css/equipe.css">
-    
+    <link rel="stylesheet" href="../css/Mobile.css/equipe.css">
+
     <!-- Link de Ícones FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../css/TabletEmPe/equipe.css">
 </head>
+
 <body>
 
 
-  <header>
-    <h1 class="logo">Meu Site</h1>
-    <input type="text" placeholder="Pesquisar" id="inputSearch" class="search">
-    <nav>
-        <ul>
-            <li><a href="../html/index.html">Home</a></li>
-            <li><a href="../html/empressas.html">Grupo</a></li>
-          
-            <li><a href="#">equipe</a></li>
-            <li><a href="../html/Sugestão.html">Suges</a></li>
-        </ul>
-    </nav>
-</header>
-  
-<section class="team-section">
-    <h2>Nosso Time</h2>
-    <div class="team-memberOne">
-        <img src="https://via.placeholder.com/150" alt="Foto do Membro">
-        <div class="member-infoOne">
-            <h3>Sulamita Viegas Dos Santos - 1TDSQ</h3>
-            <p>RM561089@fiap.com.br</p>
-            <p>RM561090</p>
-            <div class="social-icons">
-                <!-- Ícone do LinkedIn -->
-                <a href="https://www.linkedin.com/seu-perfil" target="_blank" class="icon-linkedin">
-                    <i class="fab fa-linkedin"></i>
+    <header>
+        <img src="../img/img_Logo2.png " class="logo-site" alt="Logo_Site">
+        <a href="../html/index.html">
+            <h1 class="logo">ECOENERGY</h1>
+        </a>
+
+
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar" id="inputSearch" class="search">
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+       
+       <!-- Botão do Menu Hambúrguer -->
+       <input type="checkbox" class="menu_toggle" id="menu-toggle">
+       <label class="menu_btn" for="menu-toggle">
+           <span></span>
+       </label>
+
+       <!-- Navegação -->
+       <nav class="menu_box">
+           <ul>
+               <li><a href="../html/index.html" class="menu_item">Início</a></li>
+               <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
+               <li><a href="../html/equipe.html" class="menu_item">Equipe</a></li>
+               <li><a href="../html/Sugestão.html" class="menu_item">Sugestões</a></li>
+           </ul>
+       </nav>
+       
+        <nav>
+            <ul>
+                <li><a href="../html/index.html">Início</a></li>
+                <li><a href="../html/projetos.html">Projetos</a></li>
+                <li><a href="">Equipe</a></li>
+                <li><a href="../html/Sugestão.html">Sugestões</a></li>
+
+                <a href="#login" class="user-icon" id="openRegistrationPopupButton">
+                    <i class="fas fa-user-circle"></i>
+
                 </a>
-                <!-- Ícone do GitHub -->
-                <a href="https://github.com/seu-usuario" target="_blank" class="icon-github">
-                    <i class="fab fa-github"></i>
-                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="team-section">
+        <h2>Nosso Time</h2>
+        <div class="team-memberOne">
+            <img src="https://via.placeholder.com/150" alt="Foto do Membro">
+            <div class="member-infoOne">
+                <h3>Sulamita Viegas Dos Santos - 1TDSQ</h3>
+                <p>RM561089@fiap.com.br</p>
+                <p>RM561090</p>
+                <div class="social-icons">
+                    <!-- Ícone do LinkedIn -->
+                    <a href="https://www.linkedin.com/seu-perfil" target="_blank" class="icon-linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <!-- Ícone do GitHub -->
+                    <a href="https://github.com/seu-usuario" target="_blank" class="icon-github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+
             </div>
-          
-
         </div>
-    </div>
-   
 
-    <div class="team-memberOne">
-        <img src="../img/integrante_matteus.jpg" alt="Foto do Membro">
-        <div class="member-infoOne">
-            <h3>Matteus Viegas Dos Santos - 1TDSQ</h3>
-            <p>RM561090@fiap.com.br</p>
-            <p>RM561090</p>
 
-           
+        <div class="team-memberOne">
+            <img src="../img/integrante_matteus.jpg" alt="Foto do Membro">
+            <div class="member-infoOne">
+                <h3>Matteus Viegas Dos Santos - 1TDSQ</h3>
+                <p>RM561090@fiap.com.br</p>
+                <p>RM561090</p>
 
+
+
+            </div>
         </div>
-    </div>
-   
-    
-</section>
+
+
+    </section>
 </body>
+
 </html>

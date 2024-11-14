@@ -4,52 +4,46 @@
     html {
         scroll-behavior: smooth;
     }
-    
 
-*{
-    width: 100%;
-    margin: 0;
-    text-align: center;
-box-sizing: border-box;
-}
+
+    * {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+
+    /*cabecalho da pag*/
 
     header {
-        flex-direction: column;
-        padding: 10px;
-        width: 100%;
+        background-color: #ece90b;
+        padding: 5px;
+        text-align: center;
+ 
     }
+
+
 
     .logo-site {
-        width: 25%;
-        right: 0;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 1rem;
-        font-size: 1.1rem;
-        margin-top: 1%;
-    }
-
-    .search-container .search {
-        width: 90%;
-    }
-
-    #Banner {
-        width: 90%;  
-        margin:  19% auto 0;
-    }
-
-    .carousel-item img {
-        height: 230px;  
+        width: 18%;
+        margin: 0% 3% 0% 7%;
     }
 
 
-/*botao do login*/
+    header .logo {
+        color: rgb(8, 8, 8);
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+
+    /*botao do login*/
 
     .form-group input,
     .form-group button {
         width: 100%;
+        
     }
 
     #btn-cadastro {
@@ -63,154 +57,340 @@ box-sizing: border-box;
         font-size: 14px;
     }
 
-    .sectionThree h2{
-background-color: aliceblue;
-font-size: 1.1rem;
+    /*ocultando input pesquisa*/
+
+    nav ul,
+    input {
+        display: none;
+    }
+
+        /* ocultamento da lupa */
+    .search-icon {
+        display: none;
+
+    }
+
+    .menu_toggle, .menu_btn {
+        display: block; /* Torna o menu visível */
+    }
+  
+
+    /*menu-burguer*/
+
+    .menu_toggle {
+        display: none;
+    }
+
+    .menu_btn {
+        position: absolute;
+        top: 45px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .menu_btn span,
+    .menu_btn span::before,
+    .menu_btn span::after {
+        display: block;
+        background-color: #e79212;
+        height: 3px;
+        width: 100%;
+        transition: transform 0.25s ease;
+        position: relative;
+    }
+
+    .menu_btn span::before,
+    .menu_btn span::after {
+        content: '';
+        position: absolute;
+    }
+
+    .menu_btn span::before {
+        transform: translateY(-8px);
+    }
+
+    .menu_btn span::after {
+        transform: translateY(8px);
+    }
+
+    Quando o menu estiver ativado .menu_toggle:checked+.menu_btn span {
+        transform: rotate(45deg);
+    }
+
+    .menu_toggle:checked+.menu_btn span::before {
+        transform: rotate(90deg);
+    }
+
+    .menu_toggle:checked+.menu_btn span::after {
+        transform: rotate(90deg);
+    }
+
+    .menu_box {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 47%;
+        height: 33.5%;
+        background-color: #eeeeee;
+        padding-top: 5px;
+        border-radius: 7px 0 0 7px;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.25s ease;
+        transform: translateX(100%);
+        z-index: 99;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_toggle:checked~.menu_box {
+        transform: translateX(0);
     }
 
 
-    .containerTwo{
+    .menu_box ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+      margin-top:7.9%;
+    }
+
+    .menu_item {
+        display: block;
+        padding: 15px 20px;
+        color: #333;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.25s;
+        font-size: 1.4rem;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu_item:hover {
+        color: #fa9600;
+    }
+
+
+
+
+
+
+    #Banner {
+        width: 90%;
+        margin: 19% auto 0;
+    }
+
+    .carousel-item img {
+        height: 230px;
+    }
+
+
+    .sectionThree h2 {
+        background-color: aliceblue;
+        font-size: 1.1rem;
+    }
+
+
+    .containerTwo {
         margin: 5% auto 17%;
         display: block;
     }
-    .containerTwo img{
-height: 1%;
-height: 42%;
-margin:  5% auto 2% ;
-display: flex;
-flex-direction: column;
+
+    .containerTwo img {
+        height: 1%;
+        height: 42%;
+        margin: 5% auto 2%;
+        display: flex;
+        flex-direction: column;
     }
 
 
 
 
 
-#sectionOne p{
-    font-size: 1.1rem;
-    margin: 9% auto 5%;
-    width: 80%;
-}
-
-.SectionTwo h2{
-font-size: 1.8rem;
-width: 90%;
-}
-.containerTwo{
-    width: 90%;
-}
-.containerTwo p{
-color: aquamarine;
-width: 90%;
-font-size: 1.1rem;
-}
-
-.vantagens{
-    font-size: 1.5rem;
-    margin: 34%  auto 1%;
-}
-
-.sectionThree{
-    display: flex;
-    flex-direction: column;
-}
-.grupo{
-    width: 86%;
-    margin: auto;
-}
-.grupo h2{
-    font-size: 1.6rem;
-background-color: rgba(250, 235, 215, 0);
-}
-.grupo p{
-    font-size: 1.2rem;
-}
-
-
-.sectionFour{
-display: block;
-}
-
-.titleOne{
-    font-size: 1.7rem;
-    width: 100%;
-
-}
-
-
-
-#containerEconomy{
-margin: auto;
-}
-
-
-.icon-economy{
-
-}
-
-.sectionFive h1{
-    font-size: 1.3rem;
-    margin-bottom: 10%;
-    width: 80%;
-}
-.sectionFive p{
-    font-size: 1.2rem;
-}
-
-.containerThree{
-    width: 88%;
-    height: 733px;
-}
-
-
-.containerThree h2{
-font-size: 1.2rem;
-margin: 3% auto 5%;
-}
-#solar-calculator{
-width: 85%;
-height: 523px;
-}
-#solar-calculator input{
-    height: 40px;
-}
-
-#solar-calculator label{
-font-size: 1rem;
-
-}
-
-
-.btn {
-width: 62%;
-}
-
-
-.sectionSix{
-margin: auto;
-}
-
-
-.sectionSeven{
-margin: auto;
-}
-
-
-.sectionEight{
-    margin: 11% auto 8%;
-}
-
-
-
-.sectionEight h1{
-    font-size: 1.5rem;
-    margin: 11% 0 5%; 
+    #sectionOne p {
+        font-size: 1.1rem;
+        margin: 9% auto 5%;
+        width: 80%;
     }
-    
-    
 
-    .sectionEight i{
-        font-size: 1rem;
+    .SectionTwo h2 {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+
+    .containerTwo {
+        width: 90%;
+    }
+
+    .containerTwo p {
+        color: aquamarine;
+        width: 90%;
+        font-size: 1.1rem;
+    }
+
+    .vantagens {
+        font-size: 1.5rem;
+        margin: 34% auto 1%;
+    }
+
+    .sectionThree {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grupo {
+        width: 86%;
         margin: auto;
+    }
+
+    .grupo h2 {
+        font-size: 1.6rem;
+        background-color: rgba(250, 235, 215, 0);
+    }
+
+    .grupo p {
+        font-size: 1.2rem;
+    }
+
+
+    .sectionFour {
+        display: block;
+    }
+
+    .titleOne {
+        font-size: 1.7rem;
+        width: 100%;
+
+    }
+
+    .titleTwo {
+        font-size: 1.7rem;
+        width: 100%;
+
+    }
+
+
+    #containerEconomy {
+        margin: auto;
+    }
+
+
+    .icon-economy {
+        
+    }
+.description{
+    width:90%;
+    
+}
+    .sectionFive h1 {
+        font-size: 1.3rem;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+
+    .sectionFive p {
+        font-size: 1.2rem;
+    }
+
+    .containerThree {
+        width: 88%;
+        height: 733px;
+    }
+
+
+    .containerThree h2 {
+        font-size: 1.2rem;
+        margin: 3% auto 5%;
+    }
+
+    #solar-calculator {
+        width: 85%;
+        height: 523px;
+    }
+
+    #solar-calculator input {
+        height: 40px;
+    }
+
+    #solar-calculator label {
+        font-size: 1rem;
+
+    }
+
+
+    .btn {
+        width: 62%;
+    }
+
+
+    .sectionSix {
+        margin: 10%  auto;
+        width: 87%;
+    }
+
+    .sectionSix .title{
+        font-size: 1.6rem;
+        margin: 7% auto;
+    }
+
+    .sectionSix p{
+        font-size: 1.2rem;
+
+    }
+
+    .sectionSix .btn{
+       width: 93%;
+   padding-bottom: 7%;
+    }
+
+
+
+
+    .sectionSeven {
+        margin: 10%  auto;
+        width: 87%
+    }
+
+    .sectionSeven .title{
+        font-size: 1.6rem;
+        margin: 7% auto;
+    }
+
+    .sectionSeven p{
+        font-size: 1.2rem;
+
+    }
+
+
+
+    .sectionEight {
+        margin: 11% auto 8%;
+    }
+
+
+
+    .sectionEight h1 {
+        font-size: 2.2rem;
+        margin: 11% 0 5%;
+    }
+
+
+
+    .sectionEight i {
+        font-size: 3.8rem;
+      
     }
 
 }

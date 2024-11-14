@@ -61,6 +61,14 @@ nav a:hover {
 }
 
 
+.menu_toggle, .menu_btn {
+    display: none; /* Ocultando o botão do menu hambúrguer em telas grande */
+}
+
+.menu_box {
+    display: none; /* Ocultando menu_box  */
+}
+
 a{
     text-decoration: none;
     width: 14%;
