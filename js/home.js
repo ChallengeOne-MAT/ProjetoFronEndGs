@@ -117,7 +117,7 @@ function resetInactivityTimer() {
             isUserInactive = true;
             showInactivityWarning();
         }
-    }, 7 * 60 * 1000); 
+    }, 8 * 60 * 1000); 
 }
 
 // Funções de  capturar da atividade do usuário
@@ -160,16 +160,37 @@ document.addEventListener('keydown', function(event) {
         }
     });
 
-    // Detecta as setas para cima e para baixo
-    if (event.key === "ArrowDown") {
-        event.preventDefault();
-        if (currentIndex < sections.length - 1) {
-            sections[currentIndex + 1].scrollIntoView({ behavior: "smooth" });
+
+    document.getElementById('no-notifications').addEventListener('click', () => {
+        alert('Você não receberá notificações sobre inatividade de energia.');
+        document.getElementById('inactivity-warning').style.display = 'none';
+    });
+    document.addEventListener('keydown', function (event) {
+        const sections = document.querySelectorAll("section");
+        let currentIndex = -1;
+    
+        // Encontrar a seção atual que está visível no viewport
+        sections.forEach((section, index) => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                currentIndex = index;
+            }
+        });
+    
+        // Detecta as setas para cima e para baixo
+        if (event.key === "ArrowDown") {
+            event.preventDefault();
+            if (currentIndex < sections.length - 1) {
+                // Move para a próxima seção
+                sections[currentIndex + 1].scrollIntoView({ behavior: "smooth" });
+            }
+        } else if (event.key === "ArrowUp") {
+            event.preventDefault();
+            if (currentIndex > 0) {
+                // Move para a seção anterior
+                sections[currentIndex - 1].scrollIntoView({ behavior: "smooth" });
+            }
         }
-    } else if (event.key === "ArrowUp") {
-        event.preventDefault();
-        if (currentIndex > 0) {
-            sections[currentIndex - 1].scrollIntoView({ behavior: "smooth" });
-        }
-    }
+    });
+
 });

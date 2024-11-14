@@ -1,0 +1,24 @@
+@media (min-width: 650px) and (max-width: 800px) {
+
+
+
+    .team-memberOne{
+display: flex;
+flex-direction: column;
+    }
+    .team-memberOne img{
+
+margin: auto;
+height: auto;
+width: 44%;    
+
+}
+
+.team-memberOne h3{
+font-size: 1.8rem;
+}
+.team-memberOne p{
+    font-size: 1.4rem;
+}
+
+}

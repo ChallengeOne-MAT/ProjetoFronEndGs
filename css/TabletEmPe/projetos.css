@@ -1,0 +1,107 @@
+@media (min-width: 650px) and (max-width: 800px) {
+
+
+    header {
+        background-color: #FFD34F;
+        height: 49px;
+        display: flex;
+    justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    
+    .logo {
+        color: #000;
+        font-size: 1.2rem;
+    }
+    
+    .logo-site{
+        height: auto;
+        width: 1.5%;
+    position: relative;
+    right: 1%;
+    }
+    
+    
+    
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        gap:0.3rem;
+       font-size: 0.9rem;
+       
+       margin-top: 2%;
+    }
+    
+    nav a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    nav a:hover {
+        color: #ffffff;
+    }
+    
+    
+    
+    .search-container .search{
+    height: 28px;
+    width: 222px;
+    }
+    
+    
+    
+    
+    /*icone de lupa*/
+    .fas.fa-search {
+    font-size: 14px;
+    color: #3333338a; 
+    margin-right: 4px;
+    margin-top: 3%;
+    }
+    
+    
+    
+    /*icone de usuario*/
+    .user-icon {
+    font-size: 1.2rem;
+    position: relative;
+    top: 1px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+    }
+    
+    
+    
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 160px;
+    }
+    
+    .company{
+        width: 80%;
+    }
+    .company h1{
+    font-size: 2.4rem;
+    }
+    
+    .company h2{
+    font-size: 1.6rem;
+    }
+    
+    .company p{
+    font-size: 1.1rem;
+    }
+    
+    .modal-content {
+     width: 77%;   
+    }
+    
+    }
