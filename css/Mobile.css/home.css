@@ -57,7 +57,9 @@
         padding: 10px;
         font-size: 14px;
     }
-
+.menu_box ul li {
+    display: flex; /* Permite exibir os itens do menu hambúrguer */
+}
     /*ocultando input pesquisa*/
     header li,.search {
         display: none;
@@ -191,6 +193,43 @@ top: 3px;
 
 
 
+
+
+    .popup-content{
+width: 80%;
+height: 51vh;
+    }
+
+    #company-section{
+height: 222px;
+
+    }
+
+    .close-button{
+text-align: end;
+margin-bottom: 3%;
+    }
+
+
+    .user-type-selector{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+margin: 5% auto 0%;
+    }
+
+    #individualButton,#companyButton{
+        width: 65%;
+        height: 59px;
+        font-size: 1.2rem;
+    }
+
+
+    #btn-cadastro{
+width: 79%;
+height: 52px;
+    }
 
 
 

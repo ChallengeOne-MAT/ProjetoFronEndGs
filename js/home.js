@@ -164,6 +164,10 @@ document.addEventListener('keydown', function(event) {
         alert('Você não receberá notificações sobre inatividade de energia.');
         document.getElementById('inactivity-warning').style.display = 'none';
     });
+
+
+
+    
     document.addEventListener('keydown', function (event) {
         const sections = document.querySelectorAll("section");
         let currentIndex = -1;

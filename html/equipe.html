@@ -18,7 +18,7 @@
 
     <header>
         <img src="../img/img_Logo2.png " class="logo-site" alt="Logo_Site">
-        <a href="../html/index.html">
+        <a href="#">
             <h1 class="logo">ECOENERGY</h1>
         </a>
 
@@ -36,21 +36,21 @@
            <span></span>
        </label>
 
-       <!-- Navegação -->
+       <!-- Navegação do menu burguer -->
        <nav class="menu_box">
            <ul>
                <li><a href="../html/index.html" class="menu_item">Início</a></li>
                <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
-               <li><a href="../html/equipe.html" class="menu_item">Equipe</a></li>
+               <li><a href="#" class="menu_item">Equipe</a></li>
                <li><a href="../html/Sugestão.html" class="menu_item">Sugestões</a></li>
            </ul>
        </nav>
        
         <nav>
-            <ul>
+            <ul id="cabecalho-pag">
                 <li><a href="../html/index.html">Início</a></li>
-                <li><a href="../html/projetos.html">Projetos</a></li>
-                <li><a href="">Equipe</a></li>
+                <li><a href="../html/index.html">Projetos</a></li>
+                <li><a href="#">Equipe</a></li>
                 <li><a href="../html/Sugestão.html">Sugestões</a></li>
 
                 <a href="#login" class="user-icon" id="openRegistrationPopupButton">
@@ -60,6 +60,70 @@
             </ul>
         </nav>
     </header>
+
+
+    <!--cadastro -->
+    <div class="registration-popup hidden" id="userRegistrationPopup">
+        <div class="popup-content">
+            <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
+            <h2>Cadastro de Usuário</h2>
+            <div class="user-type-selector">
+                <button id="individualButton">Usuário Individual</button>
+                <button id="companyButton">Empresa</button>
+            </div>
+            <form id="registrationForm">
+
+
+                <!-- Campos para Usuário Individual, inicialmente visíveis -->
+               
+    
+                <!-- Campos específicos para Empresa, inicialmente escondidos -->
+                <div id="companyFields" class="hidden company-section">
+                    <div class="form-group">
+                        <label for="companyName">Nome da Empresa:</label>
+                        <input type="text" id="companyName" name="companyName">
+                    </div>
+                    <div class="form-group">
+                        <label for="cnpj">CNPJ:</label>
+                        <input type="text" id="cnpj" name="cnpj">
+                    </div>
+                    <div class="form-group">
+                        <label for="responsibleName">Nome do Responsável:</label>
+                        <input type="text" id="responsibleName" name="responsibleName">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessPhone">Telefone da Empresa:</label>
+                        <input type="tel" id="businessPhone" name="businessPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessEmail">Email Comercial:</label>
+                        <input type="email" id="businessEmail" name="businessEmail">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessSector">Setor de Atuação:</label>
+                        <input type="text" id="businessSector" name="businessSector" placeholder="Ex.: Tecnologia">
+                    </div>
+                    <div class="form-group">
+                        <label for="companySize">Tamanho da Empresa:</label>
+                        <select id="companySize" name="companySize">
+                            <option value="small">Pequeno</option>
+                            <option value="medium">Médio</option>
+                            <option value="large">Grande</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <button type="submit" id="btn-cadastro">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+
+
+
     <section class="team-section">
         <h2>Nosso Time</h2>
         <div class="team-memberOne">
@@ -98,6 +162,7 @@
 
 
     </section>
+    <script src="../js/equipe.js"></script>
 </body>
 
 </html>

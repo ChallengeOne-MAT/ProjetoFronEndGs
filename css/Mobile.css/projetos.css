@@ -11,9 +11,11 @@
 
 
     
+ 
     /*cabecalho da pag*/
 
     header {
+        
         background-color: #ece90b;
         padding: 5px;
         text-align: center;
@@ -24,13 +26,13 @@
 
     .logo-site {
         width: 18%;
-        margin: 0% 3% 0% 7%;
+        margin: 0% 3% 0% 3%;
     }
 
 
     header .logo {
         color: rgb(8, 8, 8);
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         font-weight: bold;
     }
 
@@ -53,21 +55,31 @@
         padding: 10px;
         font-size: 14px;
     }
-
+.menu_box ul li {
+    display: flex; /* Permite exibir os itens do menu hambúrguer */
+}
     /*ocultando input pesquisa*/
-
-    nav ul,
-    input {
+    header li,.search {
         display: none;
     }
 
+
+    .fa-user-circle{
+position: relative;
+left: 43px;
+top: 3px;
+
+    }
+    
         /* ocultamento da lupa */
     .search-icon {
         display: none;
 
     }
 
-
+    .menu_toggle, .menu_btn {
+        display: block; /* Torna o menu visível */
+    }
   
 
     /*menu-burguer*/
@@ -111,7 +123,7 @@
         transform: translateY(8px);
     }
 
-    Quando o menu estiver ativado .menu_toggle:checked+.menu_btn span {
+    .menu_toggle:checked+.menu_btn span {
         transform: rotate(45deg);
     }
 
@@ -124,6 +136,7 @@
     }
 
     .menu_box {
+        
         position: fixed;
         top: 0;
         right: 0;
@@ -178,9 +191,45 @@
 
 
 
- .menu_toggle, .menu_btn {
-        display: block; /* Torna o menu visível em telas pequenas */
+
+
+    .popup-content{
+width: 80%;
+height: 51vh;
     }
+
+    #company-section{
+height: 222px;
+
+    }
+
+    .close-button{
+text-align: end;
+margin-bottom: 3%;
+    }
+
+
+    .user-type-selector{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+margin: 5% auto 0%;
+    }
+
+    #individualButton,#companyButton{
+        width: 65%;
+        height: 59px;
+        font-size: 1.2rem;
+    }
+
+
+    #btn-cadastro{
+width: 79%;
+height: 52px;
+    }
+
+
 
 
 
