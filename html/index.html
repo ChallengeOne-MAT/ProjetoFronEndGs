@@ -36,7 +36,7 @@
            <span></span>
        </label>
 
-       <!-- Navegação -->
+       <!-- Navegação do menu burguer -->
        <nav class="menu_box">
            <ul>
                <li><a href="../html/index.html" class="menu_item">Início</a></li>
@@ -47,7 +47,7 @@
        </nav>
        
         <nav>
-            <ul>
+            <ul id="cabecalho-pag">
                 <li><a href="#">Início</a></li>
                 <li><a href="../html/projetos.html">Projetos</a></li>
                 <li><a href="../html/equipe.html">Equipe</a></li>
@@ -72,8 +72,6 @@
 
 
     <!--cadastro -->
-
-
     <div class="registration-popup hidden" id="userRegistrationPopup">
         <div class="popup-content">
             <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
@@ -83,15 +81,13 @@
                 <button id="companyButton">Empresa</button>
             </div>
             <form id="registrationForm">
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <div id="companyFields" class="hidden">
+
+
+                <!-- Campos para Usuário Individual, inicialmente visíveis -->
+               
+    
+                <!-- Campos específicos para Empresa, inicialmente escondidos -->
+                <div id="companyFields" class="hidden company-section">
                     <div class="form-group">
                         <label for="companyName">Nome da Empresa:</label>
                         <input type="text" id="companyName" name="companyName">
@@ -125,13 +121,12 @@
                         </select>
                     </div>
                 </div>
-
-
-
+    
                 <button type="submit" id="btn-cadastro">Cadastrar</button>
             </form>
         </div>
     </div>
+    
 
 
 
@@ -179,7 +174,7 @@
             <p>A energia solar é uma fonte limpa e renovável, convertendo luz solar em eletricidade através de painéis
                 fotovoltaicos. É sustentável, reduz emissões e é econômica a longo prazo, especialmente em áreas
                 ensolaradas. </p>
-            <img src="../img/Mascote_Eolico.png" alt="cara_do_mascote">
+            <img src="../img/Mascote_Eolico.png" alt="cara_do_mascote" class="mascote2">
         </div>
     </section>
 
@@ -236,6 +231,8 @@
             <i class="fas fa-seedling  icon-sustainability "></i>
             <p class="description">
 
+
+              
                 A energia solar não só ajuda a economizar dinheiro, mas também reduz a pegada de carbono e contribui
                 para a preservação dos recursos naturais. </p>
         </div>
@@ -321,13 +318,18 @@
 
     </section>
     <section class="sectionEight">
+      
         <h1>Skills Ultilizadas</h1>
+      <div id="container-icons">
         <i class="fab fa-html5 icon-html"></i>
         <i class="fab fa-css3-alt icon-css"></i>
         <i class="fab fa-js-square icon-js"></i>
         <i class="fas fa-database icon-db"></i>
         <i class="fab fa-java icon-java"></i>
         <i class="fab fa-python icon-python"></i>
+
+      </div>
+       
     </section>
 
 

@@ -62,7 +62,6 @@ document.getElementById("solar-calculator").addEventListener("submit", function(
 
 
 
-/*logica do loggin*/
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -72,27 +71,27 @@ document.addEventListener("DOMContentLoaded", function () {
     const individualButton = document.getElementById("individualButton");
     const companyButton = document.getElementById("companyButton");
     const companyFields = document.getElementById("companyFields");
+    const generalFields = document.querySelector(".general-fields");
 
-    // Abrir o popup
     openRegistrationPopupButton.addEventListener("click", () => {
         registrationPopup.classList.remove("hidden");
     });
 
-    // Fechar o popup 
     closeRegistrationPopupButton.addEventListener("click", () => {
         registrationPopup.classList.add("hidden");
     });
 
-    // Mostrar e empresa
     individualButton.addEventListener("click", () => {
         companyFields.classList.add("hidden");
+        generalFields.classList.remove("hidden");
     });
 
-    // Mostrar  usuário
     companyButton.addEventListener("click", () => {
         companyFields.classList.remove("hidden");
+        generalFields.classList.add("hidden");
     });
 });
+
 
 
 
