@@ -362,7 +362,10 @@ margin: 16% auto 0 22%;
 
 
 h2{
-    color: #000;
+    
+    font-family: 'Poppins', sans-serif;
+
+    color: #ffffff;
     font-size: 3rem;
     margin: 3% auto 4%;
     text-align: center;
@@ -392,10 +395,11 @@ height: 542px;
 .team-memberOne img{
 border-radius: 50%;
 box-sizing: border-box;
-margin-left: 4%;
-
-height: 77%;
+margin-left: 10%;
+object-fit: cover;
+height: 85%;
 width: 30%;
+margin-top: 2.5%;
 }
 
 .team-memberOne h3{
@@ -419,6 +423,8 @@ width: 30%;
 
 /* Ícone do LinkedIn */
 .icon-linkedin i {
+    margin: 2% 2% 0%;  
+    font-size: 3.5rem;
     color: #0077b5; 
     transition: transform 0.2s;
 }
@@ -430,9 +436,25 @@ width: 30%;
 
 .icon-github i {
     transition: transform 0.2s;
+    font-size: 3.5rem;
     color: #fff;
 }
 
 .icon-github i:hover {
     transform: scale(1.2);
+}
+
+
+
+footer {
+    position:static;
+    background-color: #e8c608;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 5%;
+    color: #000;
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: bold;
 }

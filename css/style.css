@@ -358,6 +358,39 @@ margin: 16% auto 0 22%;
 
 
 
+.login-form {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.welcome-message {
+    display: none;
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+}
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #45a049;
+}
+
+
 
 
 
@@ -903,8 +936,13 @@ padding: 1%;
 
 footer {
     position:static;
-    background-color: #d4be40;
+    background-color: #e8c608;
     text-align: center;
     padding: 1rem 0;
+    margin-top: 5%;
     color: #000;
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: bold;
 }

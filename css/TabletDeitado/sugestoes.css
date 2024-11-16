@@ -1,23 +1,5 @@
 @media (min-width: 650px) and (max-width: 800px) and (orientation: landscape) {
 
-/* Reset de margens e paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
-    line-height: 1.5;
-}
-
-
-
-
         /*cabecalho da pag*/
         
         header {
@@ -244,4 +226,54 @@ body {
         
         
         
+        
+        /* Estilo do botão de ícone de pesquisa */
+        .search-container .search-icon {
+            position: absolute;
+            right: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #333;
+            font-size: 16px;
+        }
+        
+    
+    
+    .containerOpinion h1{
+        font-size: 2.5rem
+    }
+    
+    .custom-icon{
+    font-size: 5rem;
+    margin: 5% auto 7%;
+    }
+    
+    .containerOpinion p{
+    font-size: 1.2rem;
+    width: 85%;
+    text-align: start;
+    }
+    
+    .containerComplaint h1{
+        font-size: 2.4rem
+    }
+    .containerComplaint p{
+        font-size: 1.4rem;
+        width: 85%;
+        text-align: start;
+        
+    
+    }
+    .containerChatbot h1{
+        font-size: 2.5rem
+    
+    }
+    
+    .containerChatbot p{
+        font-size: 1.4rem;
+        width: 85%;
+        text-align: start;
+    }
+    
     }

@@ -269,4 +269,18 @@ margin: 3% auto;
     margin: 3% auto;
 }
 
+footer {
+    position:static;
+    background-color: #e8c608;
+    height: 49px;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 10%;
+    color: #000;
+}
+footer p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 }

@@ -10,8 +10,8 @@
     }
 
 
-    
- 
+
+
     /*cabecalho da pag*/
 
     header {
@@ -56,7 +56,7 @@
         font-size: 14px;
     }
 .menu_box ul li {
-    display: flex; 
+    display: flex; /* Permite exibir os itens do menu hambúrguer */
 }
     /*ocultando input pesquisa*/
     header li,.search {
@@ -202,7 +202,6 @@ height: 51vh;
 height: 222px;
 
     }
-  
 
     .close-button{
 text-align: end;
@@ -231,58 +230,71 @@ height: 52px;
     }
 
 
-
-
-
-
-main{
-    display: flex;
-    flex-direction: column;
-}
-
-.companiesOne{
-width: 100%;
-}
-
-
-.companiesOne h1{
-font-size: 2.3rem;
-text-align: center;
-}
-.companiesOne h2{
-    margin-top: 10%;
-    font-size: 1.6rem;
-}
-
-.companiesOne p{
-font-size: 1.2rem;
-}
-
-.companiesTwo{
-    width: 100%;
+    main {
+        display: flex;
+        flex-direction: column;
     }
 
-    .companiesTwo h1{
+    .companiesOne {
+        width: 100%;
+    }
+
+
+    .companiesOne h1 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .companiesOne h2 {
+        margin-top: 10%;
+        font-size: 1.6rem;
+    }
+
+    .companiesOne p {
+        font-size: 1.2rem;
+    }
+
+    .companiesTwo {
+        width: 100%;
+    }
+
+    .companiesTwo h1 {
         font-size: 2.5rem;
 
     }
-    .btn{
-        width: 69%;
-        height: 58px;
+
+    .btn {
+        width: 60%;
+        height: 52px;
     }
 
-.company{
-    width: 87%;
-    height: 423px;
-}
+    .company {
+        width: 87%;
+        height: 483px;
+    }
 
 
 
-.modal-content{
-width: 33%;
-position: relative;
-right: 30%;
-bottom: 33%;
-}
+    .modal-content {
+        width: 33%;
+        position: relative;
+        right: 30%;
+        bottom: 33%;
+    }
+
+
+    footer {
+        position:static;
+        background-color: #e8c608;
+        height: 49px;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 5%;
+        color: #000;
+    }
+    footer p{
+        font-size: 1rem;
+        font-weight: bold;
+    }
 
 }

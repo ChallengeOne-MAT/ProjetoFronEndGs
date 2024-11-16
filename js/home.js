@@ -93,7 +93,43 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+  // Verifica se já fez login
+  if (localStorage.getItem("isLoggedIn") === "true") {
+    document.getElementById('welcomeMessage').innerText = "Seja bem-vindo de volta!";
+    document.getElementById('welcomeMessage').style.display = 'block';
 
+    // Esconde a mensagem depois de 3 segundos
+    setTimeout(() => {
+        document.getElementById('welcomeMessage').style.display = 'none';
+    }, 3000);
+} else {
+    // Exibe o formulário de login
+    document.querySelector('.login-form').style.display = 'flex';
+
+    // Ao clicar no botão de login
+    document.getElementById('loginButton').addEventListener('click', function () {
+        const email = document.getElementById('email').value;
+
+        if (email) {
+            // Marca o login no localStorage
+            localStorage.setItem("isLoggedIn", "true");
+
+            // Esconde o formulário de login
+            document.querySelector('.login-form').style.display = 'none';
+
+            // Exibe a mensagem de boas-vindas
+            document.getElementById('welcomeMessage').innerText = `Seja bem-vindo, ${email.split('@')[0]}!`;
+            document.getElementById('welcomeMessage').style.display = 'block';
+
+            // Esconde a mensagem depois de 3 segundos
+            setTimeout(() => {
+                document.getElementById('welcomeMessage').style.display = 'none';
+            }, 3000);
+        } else {
+            alert('Por favor, insira seu email!');
+        }
+    });
+}
 
 
 // Variáveis de controle

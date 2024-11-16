@@ -520,3 +520,88 @@ font-size: 1.4rem;
     background-color: #e88e00;
 }
 
+
+
+.descriptionOne{
+    border-radius: 9px;
+    padding: 4%;
+text-align: center;
+border: 4px solid #f68d05;
+border-radius: 11px;
+margin-top: 5%;
+}
+.descriptionTwo{
+    border-radius: 9px;
+    text-align: start;
+    border: 4px solid #f68d05;
+padding: 4%;
+    margin-top: 7%;
+}
+.descriptionThree{
+    padding: 4%;
+    border: 4px solid #f68d05;
+    margin: 4% 7% 2%;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    margin-top: 7%;
+}
+
+.modal-content h2{
+    text-align: center;
+
+    font-size: 2.4rem;
+}
+
+.visity{
+background-color: #ffb404;
+color: #000000;
+    padding: 13px;
+    border: navajowhite;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+.visity:hover{
+    color:#83817e ;
+}
+.close:hover{
+    color:#83817e ;
+}
+.close{
+    font-size: 1.2rem;
+    background-color: #ffb404;
+    color: #000000;
+        padding: 13px;
+        border: navajowhite;
+        border-radius: 3px;
+}
+
+#botao{
+    margin: auto;
+}
+
+
+h1{
+    margin-bottom: 5%;
+}
+ul {
+    list-style-type: none;
+  }
+
+
+
+
+
+footer {
+    position:static;
+    background-color: #e8c608;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 5%;
+    color: #000;
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+

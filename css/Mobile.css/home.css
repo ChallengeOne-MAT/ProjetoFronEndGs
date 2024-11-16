@@ -533,4 +533,20 @@ height: auto;
 width: 23%;
     }
 
+
+
+    footer {
+        position:static;
+        background-color: #e8c608;
+        height: 49px;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 5%;
+        color: #000;
+    }
+    footer p{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
 }
