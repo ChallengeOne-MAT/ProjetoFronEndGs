@@ -228,9 +228,45 @@ height: 52px;
 }
 
 
+.containerOpinion h1{
+font-size: 2.1rem;
+margin: 9% auto;
+}
+
+.custom-icon{
+font-size: 7.7rem;
+}
+
+.containerOpinion p{
+font-size: 1.2rem;
+width: 90%;
+text-align: center;
+margin: 3% auto;
+}
 
 
+.containerComplaint h1{
+    font-size: 2rem;
+    margin: 9% auto;
+}
 
+.containerComplaint p{
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: center;
+    margin: 3% auto;
+}
 
+.containerChatbot h1{
+    font-size: 2.1rem;
+    margin: 9% auto;
+}
+
+.containerChatbot p{
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: center;
+    margin: 3% auto;
+}
 
 }

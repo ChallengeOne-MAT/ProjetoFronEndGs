@@ -273,10 +273,11 @@ height: 52px;
 
     #sectionOne p {
         font-size: 1rem;
-        margin: 9% 1% 7%;
+        margin: 9% auto;
         line-height: 1.7rem;
         width: 80%;
-        text-align: start;
+        text-align: 
+        center;
     }
 
     .SectionTwo h2 {
@@ -497,7 +498,7 @@ width: 90%;
 
     .sectionEight {
         margin: 11% auto 22%;
-       
+       width: 90%;
     }
 
 #container-icons{
@@ -506,7 +507,7 @@ width: 90%;
 
     .sectionEight h1 {
         font-size: 2rem;
-        margin: 11% 0 8%;
+        margin: 11% 0 4%;
     }
 
 
@@ -515,13 +516,21 @@ width: 90%;
         font-size: 2.5rem;
       
     }
+
+    .sectionNine{
+        height: 233px;
+    }
     .containerParcerias{
 margin: 1% auto 5%;
-width: 80%;
+width: 90%;
     }
 
     .containerParcerias h1{
-font-size: 1.6rem;
+font-size: 1.4rem;
+    }
+    .containerParcerias img{
+height: auto;
+width: 23%;
     }
 
 }

@@ -56,7 +56,7 @@
         font-size: 14px;
     }
 .menu_box ul li {
-    display: flex; /* Permite exibir os itens do menu hambúrguer */
+    display: flex; 
 }
     /*ocultando input pesquisa*/
     header li,.search {
@@ -202,6 +202,7 @@ height: 51vh;
 height: 222px;
 
     }
+  
 
     .close-button{
 text-align: end;
@@ -245,7 +246,16 @@ width: 100%;
 
 
 .companiesOne h1{
-font-size: 2.5rem;
+font-size: 2.3rem;
+text-align: center;
+}
+.companiesOne h2{
+    margin-top: 10%;
+    font-size: 1.6rem;
+}
+
+.companiesOne p{
+font-size: 1.2rem;
 }
 
 .companiesTwo{
@@ -256,9 +266,14 @@ font-size: 2.5rem;
         font-size: 2.5rem;
 
     }
+    .btn{
+        width: 69%;
+        height: 58px;
+    }
 
 .company{
-    width: 84%;
+    width: 87%;
+    height: 423px;
 }
 
 

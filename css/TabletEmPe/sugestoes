@@ -1,7 +1,8 @@
 @media (min-width: 650px) and (max-width: 800px) {
 
+
 .containerOpinion h1{
-    font-size: 2.4rem
+    font-size: 1rem
 }
 
 .custom-icon{
@@ -10,7 +11,7 @@ margin: 5% auto 7%;
 }
 
 .containerOpinion p{
-font-size: 1.4rem;
+font-size: 1.2rem;
 width: 85%;
 text-align: start;
 }
@@ -26,7 +27,7 @@ text-align: start;
 
 }
 .containerChatbot h1{
-    font-size: 2.4rem
+    font-size: 1rem
 
 }
 

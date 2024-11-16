@@ -357,6 +357,12 @@ margin: 16% auto 0 22%;
 }
 
 
+
+
+
+
+
+
 /* Estilo do container do carrossel */
 #Banner {
     width: 70%;
@@ -500,6 +506,7 @@ display: flex;
     font-size: 2.5rem;
     color: #FFD700;
     margin-bottom: 10px;
+    width: 60%;
 }
 
 .grupo p {
@@ -867,11 +874,14 @@ cursor: pointer
 .sectionNine{
     text-align:center;
     margin-top: 10%;
+    background-color: #ffffff2c;
+    width: 70%;
+    margin: auto;
+    height: 391px;
 }
 
 .containerParcerias{
-    background-color: #ffffff42;
-width: 60%;
+width: 80%;
 margin: 7% auto;
 border-radius: 11px;
 }
@@ -880,7 +890,7 @@ border-radius: 11px;
 
 
 .sectionNine h1{
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     margin: 7% auto;
 }
 

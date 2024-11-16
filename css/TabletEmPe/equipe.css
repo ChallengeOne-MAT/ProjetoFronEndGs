@@ -21,4 +21,13 @@ font-size: 1.8rem;
     font-size: 1.4rem;
 }
 
+
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 2.9em;
+    margin:2%; 
+}
+
 }

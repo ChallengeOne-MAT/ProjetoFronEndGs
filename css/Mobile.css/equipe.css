@@ -233,12 +233,13 @@ height: 52px;
     .team-memberOne {
         display: flex;
         flex-direction: column;
+        height: 593px;
     }
 
     .team-memberOne img {
         height: auto;
         width: 52%;
-        margin: auto;
+        margin: 6% auto;
     }
 
     .team-memberOne h3 {
@@ -251,10 +252,15 @@ height: 52px;
     }
 
     .social-icons {
-        margin-top: 6%;
+        margin-top: 8%;
+        display: flex;
+        gap: 20px;
+    justify-content: center;
     }
 
-
+    .fa-linkedin,.fa-github{
+        font-size: 3rem;
+    }
     .team-memberTwo {
         display: flex;
         flex-direction: column;

@@ -1,0 +1,497 @@
+@media (min-width: 650px) and (max-width: 800px) and (orientation: landscape) {
+
+    @media (min-width: 650px) and (max-width: 800px) {
+
+
+
+
+        /*cabecalho da pag*/
+        
+        header {
+            background-color: #FFD34F;
+            display: flex;
+            flex-direction: column;
+        justify-content: space-evenly;
+            align-items: center;
+        width: 100%;
+        height: 186px;
+        }
+        
+        
+        .logo {
+            color: #000;
+            font-size: 1.5rem;
+        }
+        
+        .logo-site{
+            height: auto;
+            width: 10.5%;
+        position: relative;
+        right: 1%;
+        }
+        
+        
+        
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap:1rem;
+           font-size: 1rem;
+           margin-top: 2%;
+        }
+        
+        nav a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #ffffff;
+        }
+        
+        .menu_toggle, .menu_btn {
+            display: none; /* Ocultando o botão do menu hambúrguer em telas grande */
+        }
+        
+        .menu_box {
+            display: none; /* Ocultando menu_box  */
+        }
+        a{
+            text-decoration: none;
+            width: 14%;
+        }
+        
+        /*icone de lupa*/
+        .fas.fa-search {
+            font-size: 18px;
+            color: #3333338a; 
+            margin-right: 10px;
+            margin-top: 3%;
+        }
+        
+        
+        
+        /* Estilos para a div de aviso */
+        .inactivity-warning {
+            display: none;
+            position: fixed;
+            bottom: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: hsl(48, 96%, 50%);
+            padding: 19px;
+            color: #000;
+            border-radius: 15px;
+            border: 13px solid #ff9100;
+            height: 333px;
+            text-align: center;
+            font-size: 1.6rem;
+            z-index: 1000;
+        }
+        .inactivity-warning p{
+            margin-top: 6%;
+        }
+        
+        .inactivity-warning button {
+            margin: 5% auto 0;
+            padding: 10px 15px;
+            width: 20%;
+            height: 44px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .inactivity-warning button:hover {
+            background-color: #218838;
+        }
+        
+        
+        
+        /* Container de pesquisa */
+        .search-container {
+          
+            width: 85%;
+            height: 22px;
+        
+        
+        }
+        .search{
+        height: 35px;
+        font-size: 1rem;
+        }
+        
+        
+        /*icone de usuario*/
+        .user-icon {
+            font-size: 1.9rem;
+            position: relative;
+            bottom: 6px;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        
+        }
+        
+        
+        
+        
+        /* Popup de Registro */
+        .registration-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+        
+        .popup-content {
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 8px;
+            color: #000;
+            width: 24%;
+            max-width: 90%;
+            position: relative;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .close-button {
+            position: absolute;
+            top: 1px;
+            right: 22px;
+            font-size: 37px;
+            cursor: pointer;
+        }
+        .user-type-selector{
+            display: flex;
+            
+            }
+        
+        .user-type-selector button {
+        
+            padding: 8px;
+            cursor: pointer;
+        
+        margin: auto;
+            background-color: #007396;
+        }
+        
+        
+        
+        .form-group{
+            display: flex;
+            flex-direction: column;
+        text-align: center;
+        margin: 4% auto 1%; 
+        }
+        
+        .form-group input{
+        padding: 3%;
+        border-radius: 8px;
+        }
+        
+        .form-group label{
+        text-align: start;
+        margin: 1.5%;
+        }
+        
+        .form-group button{
+        padding: 21%;
+        background-color: #1f74b4;
+        }
+        
+        #btn-cadastro{
+            width: 56%;
+            height: 47px;
+        background-color: #1572b6;
+        padding: 3%;
+        border-radius: 8px;
+        border: none;
+        margin: 16% auto 0 22%;
+        }
+        
+        
+        
+        
+        
+        
+        /* Estilo do botão de ícone de pesquisa */
+        .search-container .search-icon {
+            position: absolute;
+            right: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        
+        
+        .grupo h2{
+            font-size: 1.3rem;
+        }
+        
+        
+        
+        #Banner {
+            width: 100%;
+            margin: 19% auto 0;
+        }
+        
+        .carousel-item img {
+            max-width: 100%;
+            height: 225px;
+            object-fit: cover;
+        }
+        
+        
+        
+        #sectionOne p {
+        width: 88%;
+        font-size: 1.4rem;
+        margin: 10% auto 7%;
+        }
+        
+        
+        .SectionTwo h2{
+        width: 98%;
+        font-size: 2.1rem;
+        }
+        
+        .containerTwo{
+            display: block;
+            width: 93%;
+            margin: auto;
+        }
+        
+        .containerTwo   p{
+            width: 99%;
+        }
+        
+        .containerTwo img{
+        height: auto;
+        width: 37%;
+        margin: 10% auto 2%;
+        }
+        
+        .vantagens{
+        margin: 65% auto 5%;
+        font-size: 2rem;
+        width: 82%;
+        }
+        
+        .sectionThree {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+
+        
+        .sectionThree h2{
+        font-size: 2.1rem;
+        text-align: center;
+        width: 100%;
+        }
+        .sectionThree p{
+            font-size: 1.2rem;
+        }
+       
+
+     
+        
+        .sectionFour{
+        display: block;
+        }
+        
+        
+        #containerEconomy {
+        margin: auto;
+        }
+        
+        .titleOne{
+            font-size: 2.2rem;
+        width: 88%;
+        margin: auto;
+        }
+        
+        
+        
+        #containerEconomy {
+            margin: auto;
+            width: 99%;
+        }
+        #containerEconomy .icon-economy {
+            font-size: 111px;
+        margin: 5% auto;
+        }
+        #containerEconomy p{
+        font-size: 1.2rem;
+        width: 88%;
+        }
+        
+        .sectionFour .icon-sustainability {
+            color: #FFD700;
+            font-size: 121px; 
+            align-items: center;
+            margin: 5%;
+        }
+        
+        .titleTwo{
+            font-size: 2.1rem;
+            width: 88%;
+            margin: 13% auto 1%;
+        }
+        
+        
+        #containerSustainable p{
+        font-size: 1.2rem;
+        }
+        
+        .sectionFive h1{
+        font-size:2.4rem;
+        width: 93%;
+        margin: 16% auto 0%;
+        }
+        
+        
+        .sectionFive p{
+        font-size: 1.4em;
+        width: 80%;
+        margin-top: 6%;
+        }
+        
+        
+        .icon-economy, .icon-sustainability{
+            font-size: 1.5rem;
+        }
+        
+        .containerThree{
+        width: 88%;
+        height: 894px;
+        }
+        
+        
+        .containerThree h2{
+        font-size: 1.8rem;
+        width: 100%;
+        line-height: 3.2rem;
+        margin: 3% auto 3%;
+        }
+        
+        #solar-calculator{
+            width: 90%;
+            height: 593px;
+        }
+        #solar-calculator input{
+            padding: 12px;
+        }
+        #solar-calculator label{
+        
+        font-size: 1.3rem;
+        }
+        
+        
+        
+        .btn {
+            width: 80%;
+            height: 49px;
+            font-size: 1.9rem;
+        }
+        
+        
+        
+        
+        
+        .sectionSix{
+        margin: 12% auto;
+        height: 489px;
+        width: 90%;
+        }
+        .projectInformation{
+            width: 92%;
+        }
+        .projectInformation .title{
+            font-size: 2rem;
+            width: 99%;
+            margin: 7% auto 8%;
+        }
+        
+        .projectInformation p{
+           font-size: 1.2rem;
+           width: 100%; 
+        }
+        
+        
+        
+        
+        
+        
+        .sectionSeven{
+            margin: 12% auto;
+            height: 489px;
+            width: 90%;
+            
+        }
+        
+        .feedbackInformation{
+            width: 92%;
+        }
+        
+        .feedbackInformation h1{
+            font-size: 1.6rem;
+            width: 98%;
+            margin: 7% auto 8%;
+        }
+        
+        
+        
+        .feedbackInformation p{
+            font-size: 1.2rem;
+            width: 100%; 
+         }
+        
+        
+         .sectionEight h1{
+        font-size: 2.2rem;
+         }
+         
+         .i{
+           font-size: 08rem; 
+           padding: 10px;
+         }
+        
+.sectionNine{
+    height: 222px;
+    margin: 6% auto;
+}
+
+         .sectionNine h1{
+            font-size: 2.3rem;
+            width: 98%;
+            margin: 8% auto;
+         }
+        
+        
+                
+        }
+}
