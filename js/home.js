@@ -136,11 +136,18 @@ document.addEventListener("DOMContentLoaded", function () {
 let inactivityTimeout;
 let isUserInactive = false;
 
+
+
+
+
+
 // Função do aviso
 function showInactivityWarning() {
     const warningDiv = document.getElementById('inactivity-warning');
     warningDiv.style.display = 'block';
 }
+
+
 
 // Função para reiniciar o temporizador de inatividade
 function resetInactivityTimer() {
@@ -155,7 +162,7 @@ function resetInactivityTimer() {
     }, 8 * 60 * 1000); 
 }
 
-// Funções de  capturar da atividade do usuário
+// logica da atividade do usuário
 function userActivity() {
     isUserInactive = false;
     resetInactivityTimer();

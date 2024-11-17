@@ -408,6 +408,7 @@ margin: 16% auto 0 22%;
 text-align: center;
 }
 .containerOpinion > h1{
+    font-family: 'Montserrat', sans-serif;
 color: #fff;
 font-size: 3.8rem;
 margin: 3% auto 3%;
@@ -417,6 +418,8 @@ margin: 3% auto 3%;
 
 .containerOpinion > p{
 font-size: 1.6rem;
+font-family: Arial, Helvetica, sans-serif;
+
 width: 60%;
 margin: auto;
 }
@@ -430,6 +433,7 @@ margin: auto;
 }
 
 .containerComplaint h1{
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-size: 3.8rem;
     margin: 1% auto 2%
@@ -438,6 +442,8 @@ margin: auto;
 
 .containerComplaint > p{
     font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+
     width: 60%;
     margin: auto;
     }
@@ -464,11 +470,14 @@ margin: auto;
     }
 
     .containerChatbot h1{
+        font-family: 'Montserrat', sans-serif;
         font-size: 3.8rem;
         margin: 1% auto 2%
     }
 
     .containerChatbot p{
+        font-family: Arial, Helvetica, sans-serif;
+
         font-size: 1.6rem;
         width: 60%;
         margin: auto;

@@ -18,10 +18,17 @@ const ventusShowInfoBtn = document.getElementById('show-info-btn-ventus');
 const ventusModal = document.getElementById('modal-ventus');
 const ventusCloseBtn = document.getElementById('close-btn-ventus');
 
+
+
+
 // Exibe Ventus
+
+
 ventusShowInfoBtn.addEventListener('click', function() {
     ventusModal.style.display = 'flex';
 });
+
+
 
 // Fecha a Ventus
 ventusCloseBtn.addEventListener('click', function() {
@@ -32,7 +39,7 @@ ventusCloseBtn.addEventListener('click', function() {
 
 /*logica do loggin*/
 
-// Correção para ocultar o "companyFields" inicialmente
+// ocultando o "companyFields" inicialmente
 document.addEventListener("DOMContentLoaded", function () {
     const companyFields = document.getElementById("companyFields");
     companyFields.classList.add("hidden"); // Certificar-se de que está oculto no carregamento
