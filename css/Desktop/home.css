@@ -1,0 +1,406 @@
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/*cabecalho da pag*/
+
+header {
+    background-color: #FFD34F;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo {
+    color: #000;
+    font-size: 2rem;
+}
+
+.logo-site {
+    height: auto;
+    width: 4.5%;
+    position: relative;
+    right: 2%;
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 2%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.menu_toggle,
+.menu_btn {
+    display: none;
+    /* Ocultando o botão do menu hambúrguer em telas grande */
+}
+
+.menu_box {
+    display: none;
+    /* Ocultando menu_box  */
+}
+
+a {
+    text-decoration: none;
+    width: 14%;
+}
+
+/*icone de lupa*/
+.fas.fa-search {
+    font-size: 18px;
+    color: #3333338a;
+    margin-right: 10px;
+    margin-top: 3%;
+}
+
+
+
+/* Estilos para a div de aviso */
+.inactivity-warning {
+    display: none;
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: hsl(48, 96%, 50%);
+    padding: 19px;
+    color: #000;
+    border-radius: 15px;
+    border: 13px solid #ff9100;
+    height: 333px;
+    text-align: center;
+    font-size: 1.6rem;
+    z-index: 1000;
+}
+
+.inactivity-warning p {
+    margin-top: 6%;
+}
+
+.inactivity-warning button {
+    margin: 5% auto 0;
+    padding: 10px 15px;
+    width: 20%;
+    height: 44px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inactivity-warning button:hover {
+    background-color: #218838;
+}
+
+
+
+
+/*icone de usuario*/
+.user-icon {
+    font-size: 1.9rem;
+    position: relative;
+    bottom: 6px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Popup de Registro */
+.registration-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+
+.popup-content {
+
+    background: rgba(47, 46, 44, 0.815);
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 37%;
+    max-width: 90%;
+    position: relative;
+    border: 2px solid orange;
+}
+
+
+.hidden {
+    display: none;
+}
+
+/*botao do usuario*/
+
+#individualButton {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background-color: #00000000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+
+
+#individualButton:hover {
+    background-color: #ff9100c6;
+    border: 2px solid #000;
+    color: #000000;
+}
+
+/*botao da empresa*/
+
+#companyButton {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background-color: #00000000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+#companyButton:hover {
+    background-color: #ff9100c6;
+    border: 2px solid #000;
+    color: #000000;
+}
+
+
+
+
+
+
+/* Estilizção  do formulario empresa */
+.company-section {
+    padding: 15px;
+    border: 2px solid #967500;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.general-fields,
+.company-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+
+/* input ocupando 45% da largura do contêiner */
+.form-group {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.company-section .form-group label {
+    color: #eaa955;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.company-section .form-group input {
+    border: 1px solid #000000;
+    background-color: #fffbe6;
+    height: 42px;
+}
+
+#companySize {
+    height: 32px;
+    border-radius: 5px;
+}
+
+.company-section select {
+    background-color: #fffbe6;
+    border: 1px solid #000000;
+}
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 1px;
+    right: 22px;
+    font-size: 37px;
+    cursor: pointer;
+}
+
+.user-type-selector {
+    display: flex;
+
+}
+
+.user-type-selector button {
+
+    padding: 8px;
+    cursor: pointer;
+
+    margin: auto;
+    background-color: #967500;
+}
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4% auto 1%;
+}
+
+.form-group input {
+    padding: 3%;
+    border-radius: 8px;
+}
+
+.form-group label {
+    text-align: start;
+    margin: 1.5%;
+}
+
+.form-group button {
+    padding: 21%;
+    background-color: #ffffff;
+}
+
+#btn-cadastro {
+    width: 56%;
+    height: 59px;
+    font-size: 1.4rem;
+    background-color: #fa9c05;
+    padding: 3%;
+    border-radius: 8px;
+    border: none;
+    margin: 16% auto 0 22%;
+}
+
+
+
+
+/* Container de pesquisa */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* input de pesquisa */
+.search-container .search {
+    padding: 10px 40px 10px 15px;
+    font-size: 16px;
+    border-radius: 23px;
+    border: 1px solid #cccccc71;
+    width: 600px;
+}
+
+/* Estilo do botão de ícone de pesquisa */
+.search-container .search-icon {
+    position: absolute;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+}
+
+
+
+.login-form {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+    display: none;
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+}

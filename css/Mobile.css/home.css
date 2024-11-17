@@ -17,11 +17,11 @@
     /*cabecalho da pag*/
 
     header {
-        
+
         background-color: #ece90b;
         padding: 5px;
         text-align: center;
- 
+
     }
 
 
@@ -44,7 +44,7 @@
     .form-group input,
     .form-group button {
         width: 100%;
-        
+
     }
 
     #btn-cadastro {
@@ -57,32 +57,38 @@
         padding: 10px;
         font-size: 14px;
     }
-.menu_box ul li {
-    display: flex; /* Permite exibir os itens do menu hambúrguer */
-}
+
+    .menu_box ul li {
+        display: flex;
+        /* Permite exibir os itens do menu hambúrguer */
+    }
+
     /*ocultando input pesquisa*/
-    header li,.search {
+    header li,
+    .search {
         display: none;
     }
 
 
-    .fa-user-circle{
-position: relative;
-left: 43px;
-top: 3px;
+    .fa-user-circle {
+        position: relative;
+        left: 43px;
+        top: 3px;
 
     }
-    
-        /* ocultamento da lupa */
+
+    /* ocultamento da lupa */
     .search-icon {
         display: none;
 
     }
 
-    .menu_toggle, .menu_btn {
-        display: block; /* Torna o menu visível */
+    .menu_toggle,
+    .menu_btn {
+        display: block;
+        /* Torna o menu visível */
     }
-  
+
 
     /*menu-burguer*/
 
@@ -138,7 +144,7 @@ top: 3px;
     }
 
     .menu_box {
-        
+
         position: fixed;
         top: 0;
         right: 0;
@@ -171,7 +177,7 @@ top: 3px;
         justify-content: center;
         align-items: center;
         height: 50%;
-      margin-top:7.9%;
+        margin-top: 7.9%;
     }
 
     .menu_item {
@@ -195,40 +201,41 @@ top: 3px;
 
 
 
-    .popup-content{
-width: 80%;
-height: 51vh;
+    .popup-content {
+        width: 80%;
+        height: 51vh;
     }
 
-    #company-section{
-height: 222px;
+    #company-section {
+        height: 222px;
 
     }
 
-    .close-button{
-text-align: end;
-margin-bottom: 3%;
+    .close-button {
+        text-align: end;
+        margin-bottom: 3%;
     }
 
 
-    .user-type-selector{
-display: flex;
-flex-direction: column;
-gap: 30px;
+    .user-type-selector {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
 
-margin: 5% auto 0%;
+        margin: 5% auto 0%;
     }
 
-    #individualButton,#companyButton{
+    #individualButton,
+    #companyButton {
         width: 65%;
         height: 59px;
         font-size: 1.2rem;
     }
 
 
-    #btn-cadastro{
-width: 79%;
-height: 52px;
+    #btn-cadastro {
+        width: 79%;
+        height: 52px;
     }
 
 
@@ -263,7 +270,7 @@ height: 52px;
         flex-direction: column;
     }
 
-    .mascote2{
+    .mascote2 {
         height: auto;
         width: 37% !important;
     }
@@ -276,8 +283,8 @@ height: 52px;
         margin: 9% auto;
         line-height: 1.7rem;
         width: 80%;
-        text-align: 
-        center;
+        text-align:
+            center;
     }
 
     .SectionTwo h2 {
@@ -298,7 +305,7 @@ height: 52px;
     }
 
 
-    
+
     .vantagens {
         font-size: 1.5rem;
         margin: 34% auto 1%;
@@ -348,24 +355,26 @@ height: 52px;
         margin: auto;
         width: 99%;
     }
+
     #containerEconomy .icon-economy {
         font-size: 97px;
-   margin: 10% auto;
+        margin: 10% auto;
     }
-    
+
     .sectionFour .icon-sustainability {
         color: #FFD700;
-        font-size: 95px; 
+        font-size: 95px;
         align-items: center
     }
 
 
 
 
-.description{
-    width:90%;
-    font-size: 1rem;
-}
+    .description {
+        width: 90%;
+        font-size: 1rem;
+    }
+
     .sectionFive h1 {
         font-size: 1.6rem;
         margin: 18% auto 5%;
@@ -378,7 +387,7 @@ height: 52px;
         line-height: 1.4rem;
         width: 87%;
         text-align: center;
-        
+
     }
 
     .containerThree {
@@ -405,7 +414,7 @@ height: 52px;
     #solar-calculator label {
         font-size: 1.1rem;
         position: relative;
-top: 8px;
+        top: 8px;
     }
 
 
@@ -416,23 +425,24 @@ top: 8px;
 
 
     .sectionSix {
-        margin: 10%  auto;
+        margin: 10% auto;
         width: 89%;
     }
 
 
-    .projectInformation{
-width: 90%;
+    .projectInformation {
+        width: 90%;
     }
-    .sectionSix .title{
+
+    .sectionSix .title {
         font-size: 1.7rem;
         margin: 14% auto;
         width: 100%;
     }
 
 
-    
-    .sectionSix p{
+
+    .sectionSix p {
         font-size: 1rem;
         text-align: center;
         width: 90%;
@@ -450,30 +460,30 @@ width: 90%;
         font-size: 1.3rem;
         width: 100px;
         border-radius: 7px;
-       position: relative;
-       top: 16%;
+        position: relative;
+        top: 16%;
         text-align: center;
-      
+
     }
 
 
     .sectionSeven {
-        margin: 10%  auto;
+        margin: 10% auto;
         width: 89%
     }
 
-    
-    .feedbackinformation{
-        width: 90%;
-            }
 
-    .sectionSeven .title{
+    .feedbackinformation {
+        width: 90%;
+    }
+
+    .sectionSeven .title {
         font-size: 1.7rem;
         margin: 14% auto;
         width: 100%;
     }
 
-    .sectionSeven p{
+    .sectionSeven p {
         font-size: 1rem;
         text-align: center;
         width: 99%;
@@ -490,20 +500,20 @@ width: 90%;
         font-size: 1.3rem;
         width: 100px;
         border-radius: 7px;
-       position: relative;
-       top: 27%;
+        position: relative;
+        top: 27%;
         text-align: center;
-      
+
     }
 
     .sectionEight {
         margin: 11% auto 22%;
-       width: 90%;
+        width: 90%;
     }
 
-#container-icons{
-    display: flex;
-}
+    #container-icons {
+        display: flex;
+    }
 
     .sectionEight h1 {
         font-size: 2rem;
@@ -514,29 +524,31 @@ width: 90%;
 
     .sectionEight i {
         font-size: 2.5rem;
-      
+
     }
 
-    .sectionNine{
+    .sectionNine {
         height: 233px;
     }
-    .containerParcerias{
-margin: 1% auto 5%;
-width: 90%;
+
+    .containerParcerias {
+        margin: 1% auto 5%;
+        width: 90%;
     }
 
-    .containerParcerias h1{
-font-size: 1.4rem;
+    .containerParcerias h1 {
+        font-size: 1.4rem;
     }
-    .containerParcerias img{
-height: auto;
-width: 23%;
+
+    .containerParcerias img {
+        height: auto;
+        width: 23%;
     }
 
 
 
     footer {
-        position:static;
+        position: static;
         background-color: #e8c608;
         height: 49px;
         text-align: center;
@@ -544,7 +556,8 @@ width: 23%;
         margin-top: 5%;
         color: #000;
     }
-    footer p{
+
+    footer p {
         font-size: 1rem;
         font-weight: bold;
     }
