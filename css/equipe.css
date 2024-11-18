@@ -443,6 +443,21 @@ margin-top: 2.5%;
 }
 
 
+#botao-topo{
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: orange;
+    padding: 12px 22px;
+    width: 26%;
+    font-size: 1.5rem;
+    margin: 6% auto;
+font-family: Arial, Helvetica, sans-serif;
+}
+#botao-topo:hover{
+    background-color: #fff;
+    color:orange;
+}
+
 
 footer {
     position:static;

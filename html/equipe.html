@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/Desktop/equipe.css">
     <!-- Link de Ícones FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-   
+
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 
     <header>
         <img src="../img/img_Logo2.png " class="logo-site" alt="Logo_Site">
-        <a href="#">
+        <a href="../html/index.html">
             <h1 class="logo">ECOENERGY</h1>
         </a>
 
@@ -32,23 +32,23 @@
                 <i class="fas fa-search"></i>
             </button>
         </div>
-       
-       <!-- Botão do Menu Hambúrguer -->
-       <input type="checkbox" class="menu_toggle" id="menu-toggle">
-       <label class="menu_btn" for="menu-toggle">
-           <span></span>
-       </label>
 
-       <!-- Navegação do menu burguer -->
-       <nav class="menu_box">
-           <ul>
-               <li><a href="../html/index.html" class="menu_item">Início</a></li>
-               <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
-               <li><a href="#" class="menu_item">Equipe</a></li>
-               <li><a href="../html/Sugestão.html" class="menu_item">Sugestões</a></li>
-           </ul>
-       </nav>
-       
+        <!-- Botão do Menu Hambúrguer -->
+        <input type="checkbox" class="menu_toggle" id="menu-toggle">
+        <label class="menu_btn" for="menu-toggle">
+            <span></span>
+        </label>
+
+        <!-- Navegação do menu burguer -->
+        <nav class="menu_box">
+            <ul>
+                <li><a href="../html/index.html" class="menu_item">Início</a></li>
+                <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
+                <li><a href="#" class="menu_item">Equipe</a></li>
+                <li><a href="../html/Sugestão.html" class="menu_item">Sugestões</a></li>
+            </ul>
+        </nav>
+
         <nav>
             <ul id="cabecalho-pag">
                 <li><a href="../html/index.html">Início</a></li>
@@ -68,118 +68,120 @@
     <main>
 
 
-    <!--cadastro -->
-    <div class="registration-popup hidden" id="userRegistrationPopup">
-        <div class="popup-content">
-            <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
-            <h2>Cadastro de Usuário</h2>
-            <div class="user-type-selector">
-                <button id="individualButton">Usuário Individual</button>
-                <button id="companyButton">Empresa</button>
-            </div>
-            <form id="registrationForm">
-
-
-                <!-- Campos para Usuário Individual, inicialmente visíveis -->
-               
-    
-                <!-- Campos específicos para Empresa, inicialmente escondidos -->
-                <div id="companyFields" class="hidden company-section">
-                    <div class="form-group">
-                        <label for="companyName">Nome da Empresa:</label>
-                        <input type="text" id="companyName" name="companyName">
-                    </div>
-                    <div class="form-group">
-                        <label for="cnpj">CNPJ:</label>
-                        <input type="text" id="cnpj" name="cnpj">
-                    </div>
-                    <div class="form-group">
-                        <label for="responsibleName">Nome do Responsável:</label>
-                        <input type="text" id="responsibleName" name="responsibleName">
-                    </div>
-                    <div class="form-group">
-                        <label for="businessPhone">Telefone da Empresa:</label>
-                        <input type="tel" id="businessPhone" name="businessPhone">
-                    </div>
-                    <div class="form-group">
-                        <label for="businessEmail">Email Comercial:</label>
-                        <input type="email" id="businessEmail" name="businessEmail">
-                    </div>
-                    <div class="form-group">
-                        <label for="businessSector">Setor de Atuação:</label>
-                        <input type="text" id="businessSector" name="businessSector" placeholder="Ex.: Tecnologia">
-                    </div>
-                    <div class="form-group">
-                        <label for="companySize">Tamanho da Empresa:</label>
-                        <select id="companySize" name="companySize">
-                            <option value="small">Pequeno</option>
-                            <option value="medium">Médio</option>
-                            <option value="large">Grande</option>
-                        </select>
-                    </div>
+        <!--cadastro -->
+        <div class="registration-popup hidden" id="userRegistrationPopup">
+            <div class="popup-content">
+                <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
+                <h2>Cadastro de Usuário</h2>
+                <div class="user-type-selector">
+                    <button id="individualButton">Usuário Individual</button>
+                    <button id="companyButton">Empresa</button>
                 </div>
-    
-                <button type="submit" id="btn-cadastro">Cadastrar</button>
-            </form>
-        </div>
-    </div>
-    
+                <form id="registrationForm">
 
 
+                    <!-- Campos para Usuário Individual, inicialmente visíveis -->
 
 
+                    <!-- Campos específicos para Empresa, inicialmente escondidos -->
+                    <div id="companyFields" class="hidden company-section">
+                        <div class="form-group">
+                            <label for="companyName">Nome da Empresa:</label>
+                            <input type="text" id="companyName" name="companyName">
+                        </div>
+                        <div class="form-group">
+                            <label for="cnpj">CNPJ:</label>
+                            <input type="text" id="cnpj" name="cnpj">
+                        </div>
+                        <div class="form-group">
+                            <label for="responsibleName">Nome do Responsável:</label>
+                            <input type="text" id="responsibleName" name="responsibleName">
+                        </div>
+                        <div class="form-group">
+                            <label for="businessPhone">Telefone da Empresa:</label>
+                            <input type="tel" id="businessPhone" name="businessPhone">
+                        </div>
+                        <div class="form-group">
+                            <label for="businessEmail">Email Comercial:</label>
+                            <input type="email" id="businessEmail" name="businessEmail">
+                        </div>
+                        <div class="form-group">
+                            <label for="businessSector">Setor de Atuação:</label>
+                            <input type="text" id="businessSector" name="businessSector" placeholder="Ex.: Tecnologia">
+                        </div>
+                        <div class="form-group">
+                            <label for="companySize">Tamanho da Empresa:</label>
+                            <select id="companySize" name="companySize">
+                                <option value="small">Pequeno</option>
+                                <option value="medium">Médio</option>
+                                <option value="large">Grande</option>
+                            </select>
+                        </div>
+                    </div>
 
-
-    <section class="team-sectionOne">
-        <h2>Nosso Time</h2>
-        <div class="team-memberOne">
-            <img src="https://via.placeholder.com/150" alt="Foto do Membro">
-            <div class="member-infoOne">
-                <h3>Sulamita Viegas Dos Santos - 1TDSQ</h3>
-                <p>RM561089@fiap.com.br</p>
-                <p>RM561090</p>
-                <div class="social-icons">
-                    <!-- Ícone do LinkedIn -->
-                    <a href="https://www.linkedin.com/seu-perfil" target="_blank" class="icon-linkedin">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <!-- Ícone do GitHub -->
-                    <a href="https://github.com/seu-usuario" target="_blank" class="icon-github">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-
-
+                    <button type="submit" id="btn-cadastro">Cadastrar</button>
+                </form>
             </div>
         </div>
 
 
-        <div class="team-memberOne">
-            <img src="../img/integrante_matteus.jpg" alt="Foto do Membro">
-            <div class="member-infoOne">
-                <h3>Matteus Viegas Dos Santos - 1TDSQ</h3>
-                <p>RM561090@fiap.com.br</p>
-                <p>RM561090</p>
 
-                <div class="social-icons">
-                    <!-- Ícone do LinkedIn -->
-                    <a href="https://www.linkedin.com/seu-perfil" target="_blank" class="icon-linkedin">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <!-- Ícone do GitHub -->
-                    <a href="https://github.com/seu-usuario" target="_blank" class="icon-github">
-                        <i class="fab fa-github"></i>
-                    </a>
+
+
+
+
+        <section class="team-sectionOne">
+            <h2>Nosso Time</h2>
+            <div class="team-memberOne">
+                <img src="../img/foto_Membro1.jpg" alt="Foto do Membro">
+                <div class="member-infoOne" id="sulamita">
+                    <h3>Sulamita Viegas Dos Santos - 1TDSQ</h3>
+                    <p>RM561089@fiap.com.br</p>
+                    <p>RM561090</p>
+                    <div class="social-icons">
+                        <!-- Ícone do LinkedIn -->
+                        <a href="https://www.linkedin.com/in/sulamita-viegas-dos-santos-280210223/" target="_blank"
+                            class="icon-linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <!-- Ícone do GitHub -->
+                        <a href="https://github.com/Sulamita020905" target="_blank" class="icon-github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+
                 </div>
-
             </div>
-        </div>
 
 
-    </section>
-        
+            <div class="team-memberOne" id="matteus">
+                <img src="../img/integrante_matteus.jpg" alt="Foto do Membro">
+                <div class="member-infoOne">
+                    <h3>Matteus Viegas Dos Santos - 1TDSQ</h3>
+                    <p>RM561090@fiap.com.br</p>
+                    <p>RM561090</p>
+
+                    <div class="social-icons">
+                        <!-- Ícone do LinkedIn -->
+                        <a href="https://www.linkedin.com/in/matteus-viegas-533437294/" target="_blank"
+                            class="icon-linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <!-- Ícone do GitHub -->
+                        <a href="https://github.com/matteusviegas" target="_blank" class="icon-github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
     </main>
-
+    <button id="botao-topo"> VOLTAR AO TOPO</button>
     <footer>
         <p>&copy; 2024 ecoenergy. Todos os direitos reservados</p>
     </footer>

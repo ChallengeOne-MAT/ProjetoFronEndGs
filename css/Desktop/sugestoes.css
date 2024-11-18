@@ -1,4 +1,4 @@
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
+@media screen and (min-width: 1366px) and (max-width: 1819px) {
     /* Reset de margens e paddings */
     * {
         margin: 0;
@@ -402,5 +402,49 @@
     button:hover {
         background: #45a049;
     }
+
+
+    
+.containerOpinion h1{
+font-size: 2.9rem;
+margin: 9% auto;
+}
+
+.custom-icon{
+font-size: 9rem;
+}
+
+.containerOpinion p{
+font-size: 1.4rem;
+width: 90%;
+text-align: center;
+margin: 3% auto;
+}
+
+
+.containerComplaint h1{
+    font-size: 2.9rem;
+    margin: 9% auto;
+}
+
+.containerComplaint p{
+    font-size: 1.4rem;
+    width: 90%;
+    text-align: center;
+    margin: 3% auto;
+}
+
+.containerChatbot h1{
+    font-size: 2.9rem;
+    margin: 9% auto;
+}
+
+.containerChatbot p{
+    font-size: 1.4rem;
+    width: 90%;
+    text-align: center;
+    margin: 3% auto;
+}
+
     
     }

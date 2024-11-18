@@ -444,7 +444,7 @@
 
     .sectionSix p {
         font-size: 1rem;
-        text-align: center;
+        text-align: start;
         width: 90%;
         margin: 12% 6% 1%;
 
@@ -460,9 +460,9 @@
         font-size: 1.3rem;
         width: 100px;
         border-radius: 7px;
-        position: relative;
-        top: 16%;
+    
         text-align: center;
+        margin-right: 17%;
 
     }
 
@@ -532,6 +532,7 @@
     }
 
     .containerParcerias {
+        
         margin: 1% auto 5%;
         width: 90%;
     }
@@ -544,6 +545,14 @@
         height: auto;
         width: 23%;
     }
+
+
+#botao-topo{
+    width: 93%;
+    height: 49px;
+    font-size: 1.2rem;
+    margin-top: 7%;
+}
 
 
 

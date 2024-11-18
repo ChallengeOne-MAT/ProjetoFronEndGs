@@ -1,4 +1,4 @@
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
+@media screen and (min-width: 1366px) and (max-width: 1819px) {
 /* Reset de margens e paddings */
 * {
     margin: 0;
@@ -403,4 +403,92 @@ button:hover {
     background: #45a049;
 }
 
+.grupo{
+    width: 26%;
+}
+
+.grupo h2{
+    font-size: 1.9rem;
+}
+.titleTwo{
+margin-top: 1.5%;
+}
+
+.containerThree{
+width: 60%;
+height: 112vh;
+}
+#solar-calculator{
+    width: 85%;
+}
+
+.icon-html,
+.icon-css,
+.icon-js,
+.icon-db,
+.icon-java,
+.icon-python {
+    font-size: 70px;
+    color: inherit;
+    padding: 2%;
+    cursor: pointer
+}
+
+/* Efeito de expansão */
+.icon-html:hover,
+.icon-css:hover,
+.icon-js:hover,
+.icon-db:hover,
+.icon-java:hover,
+.icon-python:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
+/* Efeito quando for "pressionado"  */
+.icon-html:active,
+.icon-css:active,
+.icon-js:active,
+.icon-db:active,
+.icon-java:active,
+.icon-python:active {
+    transform: scale(0.95);
+}
+
+.icon-html {
+    color: #e34c26;
+}
+
+.icon-css {
+    color: #1572b6;
+}
+
+.icon-js {
+    color: #f7df1e;
+}
+
+.icon-db {
+    color: #1f74b4;
+}
+
+.icon-java {
+    color: #007396;
+}
+
+.icon-python {
+    color: #306998;
+}
+
+.icon-html.fa,
+.icon-css.fa,
+.icon-js.fa,
+.icon-db.fa,
+.icon-java.fa,
+.icon-python.fa {
+    font-size: 3em;
+}
+#botao-topo{
+width: 33%;
+padding: 17px;
+}
 }

@@ -27,3 +27,52 @@ document.addEventListener("DOMContentLoaded", function () {
         generalFields.classList.add("hidden");
     });
 });
+
+
+
+/*logica para pesquisa da pag*/
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("inputSearch");
+    const searchButton = document.querySelector(".search-icon");
+
+    searchButton.addEventListener("click", function () {
+        const query = searchInput.value.toLowerCase().trim(); // Normaliza a pesquisa
+
+        const keywordDestinations = {
+            "opiniao": "#opiniao",
+            "problemas": "#problemas",
+            "chatbot": "#chatbot",
+        };
+
+       
+        if (keywordDestinations[query]) {
+            const destination = keywordDestinations[query];
+            document.querySelector(destination).scrollIntoView({ behavior: "smooth" });
+        } else {
+            alert("Palavra-chave não encontrada.");
+        }
+    });
+});
+
+
+
+/*logica do botao de voltar ao topo */
+const scrollToTopButton = document.getElementById("botao-topo");
+
+
+window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollToTopButton.style.display = "block";
+    } else {
+        scrollToTopButton.style.display = "none";
+    }
+};
+
+
+scrollToTopButton.onclick = function () {
+    
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+    });
+};

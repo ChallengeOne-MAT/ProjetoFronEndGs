@@ -77,3 +77,30 @@ document.addEventListener("DOMContentLoaded", function () {
         generalFields.classList.add("hidden");
     });
 });
+
+
+
+
+
+/*logica do botao de voltar ao topo */
+const scrollToTopButton = document.getElementById("botao-topo");
+
+
+window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollToTopButton.style.display = "block";
+    } else {
+        scrollToTopButton.style.display = "none";
+    }
+};
+
+
+scrollToTopButton.onclick = function () {
+    
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+    });
+};
+
+
