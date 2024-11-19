@@ -102,7 +102,7 @@ font-size: 1.5rem;
     padding: 19px;
     color: #ffffff;
     border-radius: 15px;
-    border: 3px solid  #eeb404;
+    border: 3px solid  #FFD34F;
     height: 463px;
     text-align: center;
     font-size: 1.6rem;
@@ -132,7 +132,7 @@ top: 3%;
     padding: 10px 15px;
     width: 25%;
     height: 44px;
-    background-color: #eeb404;
+    background-color: #FFD34F;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
@@ -141,7 +141,7 @@ top: 3%;
 }
 
 .inactivity-warning button:hover {
-   color: #eeb404;
+   color: #FFD34F;
    background-color: #ffffff;
 }
 
@@ -193,7 +193,7 @@ top: 3%;
     width: 37%;
     max-width: 90%;
     position: relative;
-    border: 2px solid orange;
+    border: 2px solid  #f39c12;
 }
 
 
@@ -215,7 +215,7 @@ top: 3%;
 
 
 #individualButton:hover {
-    background-color: #ff9100c6;
+    background-color: #f39c12;
     border: 2px solid #000;
     color: #000000;
 }
@@ -232,7 +232,7 @@ top: 3%;
 }
 
 #companyButton:hover {
-    background-color: #ff9100c6;
+    background-color: #f39c12;
     border: 2px solid #000;
     color: #000000;
 }
@@ -300,7 +300,7 @@ font-size: 1.9rem;
 }
 
 .company-section .form-group label {
-    color: #eaa955;
+    color: #f39c12;
     font-weight: bold;
     font-size: 1.4rem;
 }
@@ -380,7 +380,7 @@ height: 125px;
     width: 56%;
     height: 59px;
     font-size: 1.4rem;
-    background-color: #fa9c05;
+    background-color: #f39c12;
     padding: 3%;
     border-radius: 8px;
     border: none;
@@ -555,7 +555,7 @@ button:hover {
     font-size: 2.8rem;
     font-family: 'Montserrat', sans-serif;
     padding: 9% 0 0;
-    border-top: 3px solid #FFD700;
+    border-top: 3px solid  #FFD34F;
     width: 55%;
     margin: auto;
 
@@ -606,7 +606,7 @@ button:hover {
 .grupo h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #FFD700;
+    color:  #FFD34F;
     margin-bottom: 10px;
     width:
     95%;
@@ -625,7 +625,7 @@ button:hover {
     color: inherit;
     padding: 2%;
     cursor: pointer;
-    color: #e8c608;
+    color: #FFD34F;
 
 }
 
@@ -657,7 +657,7 @@ button:hover {
 }
 
 .sectionFour .icon-economy {
-    color: #FFD700;
+    color: #FFD34F;
     font-size: 160px;
     display: flex;
     flex-direction: column;
@@ -666,7 +666,7 @@ button:hover {
 
 
 .sectionFour .icon-sustainability {
-    color: #FFD700;
+    color:  #FFD34F;
     font-size: 160px;
     display: flex;
     flex-direction: column;
@@ -725,7 +725,7 @@ button:hover {
 .sectionFive h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.8rem;
-    color: #fffb00;
+    color: #FFD34F;
     width: 39%;
     margin: 8% auto 3%;
 }
@@ -764,7 +764,7 @@ h2 {
 
 /* Estilo do formulário */
 #solar-calculator {
-    background: linear-gradient(135deg, #ffbc00, #ff7f00);
+  background-color: #f39c12;;
     border-radius: 10px;
     padding: 40px;
     width: 60%;
@@ -796,7 +796,7 @@ h2 {
 
 #solar-calculator button {
     background-color: #fff;
-    color: #ff7f00;
+    color: #f39c12;
     padding: 15px 25px;
     border: none;
     border-radius: 5px;
@@ -806,7 +806,7 @@ h2 {
 }
 
 #solar-calculator button:hover {
-    background-color: #ff7f00;
+    background-color:#f39c12;
     color: #fff;
 }
 
@@ -859,7 +859,7 @@ float: right;
 }
 
 .projectInformation p {
-    color: #ee7e0e;
+    color:#f39c12;
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -889,7 +889,7 @@ float: right;
 
 
 .btn:hover {
-    background-color: #ff9500;
+    background-color:#f39c12;
     color: #ffffff;
 }
 
@@ -903,7 +903,8 @@ float: right;
     width: 74%;
     margin: 7% auto 5% 19%;
     height: 55vh;
-    border: 3px solid #f39c12;
+    border: 3px solid 
+    #f39c12;
     border-radius: 19px;
 }
 
@@ -926,7 +927,7 @@ float: right;
 
 
 .feedbackInformation p {
-    color: #ee7e0e;
+    color: #f39c12;
     font-size: 1.5rem;
 }
 
@@ -946,7 +947,7 @@ float: right;
 
 
 .btn:hover {
-    background-color: #ff9500;
+    background-color:#f39c12;
     color: #ffffff;
 }
 
@@ -1007,7 +1008,7 @@ float: right;
 }
 
 .icon-js {
-    color: #f7df1e;
+    color:  #FFD34F;
 }
 
 .icon-db {
@@ -1065,7 +1066,7 @@ float: right;
 
 
 #botao-topo{
-    background-color: orange;
+    background-color: #f39c12;
     padding: 12px 22px;
     width: 26%;
     font-size: 1.5rem;
@@ -1074,12 +1075,12 @@ font-family: Arial, Helvetica, sans-serif;
 }
 #botao-topo:hover{
     background-color: #fff;
-    color:orange;
+    color:#f39c12;
 }
 
 footer {
     position: static;
-    background-color: #e8c608;
+    background-color:  #FFD34F;
     text-align: center;
     padding: 1rem 0;
     margin-top: 5%;

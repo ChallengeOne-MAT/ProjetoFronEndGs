@@ -19,7 +19,7 @@ color: #fff;
 
 
 header {
-    background-color: #FFD34F;
+    background-color:#FFD34F;
     
     display: flex;
 justify-content: space-evenly;
@@ -90,11 +90,11 @@ a{
     bottom: 50%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: hsl(48, 96%, 50%);
+    background-color: #FFD34F;
     padding: 19px;
     color: #000;
     border-radius: 15px;
-    border: 13px solid #ff9100;
+    border: 13px solid #f39c12;
     height: 333px;
     text-align: center;
     font-size: 1.6rem;
@@ -167,7 +167,7 @@ a{
     width: 37%;
     max-width: 90%;
     position: relative;
-    border: 2px solid orange;
+    border: 2px solid #f39c12;
 }
 
 
@@ -189,7 +189,7 @@ padding: 15px;
 
 
 #individualButton:hover{
-    background-color: #ff9100c6;
+    background-color: #f39c12;
     border: 2px solid #000;
 color: #000000;
 }
@@ -206,7 +206,7 @@ color: #000000;
 }
 
 #companyButton:hover{
-    background-color: #ff9100c6;
+    background-color: #f39c12;
     border: 2px solid #000;
 color: #000000;
 }
@@ -242,7 +242,7 @@ color: #000000;
 
 
 .company-section .form-group label {
-    color: #eaa955;
+    color: #FFD34F;
     font-weight: bold;
   font-size: 1.4rem;
 }
@@ -321,7 +321,7 @@ background-color: #ffffff;
     width: 56%;
     height: 59px;
     font-size: 1.4rem;
-background-color: #fa9c05;
+background-color: #f39c12;
 padding: 3%;
 border-radius: 8px;
 border: none;
@@ -380,7 +380,7 @@ margin: auto;
 
 .team-memberOne{
 background-color: rgba(255, 255, 255, 0);
-border: 4px solid #ff8400;
+border: 4px solid #f39c12;
 color: #ffffff;
 border-radius: 19px;
 margin: 5% auto ;
@@ -446,7 +446,7 @@ margin-top: 2.5%;
 #botao-topo{
     border-radius: 9px;
     cursor: pointer;
-    background-color: orange;
+    background-color: #f39c12;
     padding: 12px 22px;
     width: 26%;
     font-size: 1.5rem;
@@ -455,13 +455,13 @@ font-family: Arial, Helvetica, sans-serif;
 }
 #botao-topo:hover{
     background-color: #fff;
-    color:orange;
+    color:#f39c12;
 }
 
 
 footer {
     position:static;
-    background-color: #e8c608;
+    background-color:#FFD34F;
     text-align: center;
     padding: 1rem 0;
     margin-top: 5%;

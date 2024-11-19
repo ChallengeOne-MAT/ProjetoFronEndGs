@@ -26,11 +26,11 @@ body {
     bottom: 50%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: hsl(48, 96%, 50%);
+    background-color: #FFD34F;
     padding: 19px;
     color: #000;
     border-radius: 15px;
-    border: 13px solid #ff9100;
+    border: 13px solid #f39c12;
     height: 333px;
     text-align: center;
     font-size: 1.6rem;
@@ -130,11 +130,11 @@ a{
     bottom: 50%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: hsl(48, 96%, 50%);
+    background-color:#FFD34F;
     padding: 19px;
     color: #000;
     border-radius: 15px;
-    border: 13px solid #ff9100;
+    border: 13px solid #f39c12;
     height: 333px;
     text-align: center;
     font-size: 1.6rem;
@@ -207,7 +207,7 @@ a{
     width: 37%;
     max-width: 90%;
     position: relative;
-    border: 2px solid orange;
+    border: 2px solid #f39c12;
 }
 
 
@@ -229,7 +229,7 @@ padding: 15px;
 
 
 #individualButton:hover{
-    background-color: #ff9100c6;
+    background-color: #f39c12;
     border: 2px solid #000;
 color: #000000;
 }
@@ -246,7 +246,7 @@ color: #000000;
 }
 
 #companyButton:hover{
-    background-color: #ff9100c6;
+    background-color: #f39c12;
     border: 2px solid #000;
 color: #000000;
 }
@@ -361,7 +361,7 @@ background-color: #ffffff;
     width: 56%;
     height: 59px;
     font-size: 1.4rem;
-background-color: #fa9c05;
+background-color: #f39c12;
 padding: 3%;
 border-radius: 8px;
 border: none;
@@ -454,7 +454,7 @@ margin: auto;
     cursor: pointer;
     font-size: 12rem;
     margin: 1.5% auto 4%; 
-   color: #ffd900;
+   color: #FFD34F;
    
     }
 
@@ -487,7 +487,7 @@ margin: auto;
 
     #botao-topo{
         cursor: pointer;
-        background-color: orange;
+        background-color: #f39c12;
         padding: 12px 22px;
         width: 26%;
         border-radius: 9px;
@@ -497,13 +497,13 @@ margin: auto;
     }
     #botao-topo:hover{
         background-color: #fff;
-        color:orange;
+        color: #f39c12;
     }
     
     
 footer {
     position:static;
-    background-color: #e8c608;
+    background-color:#FFD34F;
     text-align: center;
     padding: 1rem 0;
     margin-top: 5%;
