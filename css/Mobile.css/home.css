@@ -18,7 +18,7 @@
 
     header {
 
-        background-color: #ece90b;
+        background-color:  #FFD34F;
         padding: 5px;
         text-align: center;
 
@@ -51,6 +51,9 @@
         width: 100%;
         margin: 16% auto 0 0;
     }
+
+
+
 
     /* Ajuste do botão de registro */
     .user-type-selector button {
@@ -98,7 +101,7 @@
 
     .menu_btn {
         position: absolute;
-        top: 45px;
+        top: 50px;
         right: 20px;
         width: 30px;
         height: 30px;
@@ -110,7 +113,7 @@
     .menu_btn span::before,
     .menu_btn span::after {
         display: block;
-        background-color: #e79212;
+        background-color:#f39c12;
         height: 3px;
         width: 100%;
         transition: transform 0.25s ease;
@@ -194,16 +197,22 @@
     }
 
     .menu_item:hover {
-        color: #fa9600;
+        color:#f39c12;
     }
 
 
 
-
+    #welcomeMessage{
+width: 55%;
+font-size: 1.4rem;
+margin-top: 10%;
+    }
 
     .popup-content {
         width: 80%;
-        height: 51vh;
+        height: 59vh;
+        border: 2px solid #fff;
+        overflow-y: scroll;
     }
 
     #company-section {
@@ -218,30 +227,44 @@
 
 
     .user-type-selector {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-
-        margin: 5% auto 0%;
+     padding-right: 9%;
+        margin: 5% auto 0% 0%;
     }
 
     #individualButton,
     #companyButton {
-        width: 65%;
-        height: 59px;
-        font-size: 1.2rem;
+        width: 77%;
+        height: 68px;
+        font-size: 1rem;
     }
 
+    .general-fields{
+display: flex;
 
+    }
+
+#password{
+width: 100%;
+height: 48px;
+}
+#email{
+    width: 100%;
+}
     #btn-cadastro {
-        width: 79%;
-        height: 52px;
+        width: 62%;
+        height: 47px;
     }
 
+    .fa-user{
+margin-right: 3%;
+height: 1px;
+    }
 
-
+    .fa-building{
+       height: 1px;
+    }
     #Banner {
-        width: 100%;
+        width: 90%;
         margin: 19% auto 0;
     }
 
@@ -323,7 +346,7 @@
     }
 
     .grupo h2 {
-        font-size: 1.9rem;
+        font-size: 1.7rem;
         background-color: rgba(250, 235, 215, 0);
         text-align: center;
     }
@@ -362,7 +385,7 @@
     }
 
     .sectionFour .icon-sustainability {
-        color: #FFD700;
+        color:  #FFD34F;
         font-size: 95px;
         align-items: center
     }
@@ -534,31 +557,32 @@
     .containerParcerias {
         
         margin: 1% auto 5%;
-        width: 90%;
+        width: 98%;
     }
 
     .containerParcerias h1 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        width: 100%;
     }
 
     .containerParcerias img {
         height: auto;
-        width: 23%;
+        width: 29%;
     }
 
 
 #botao-topo{
-    width: 93%;
+    width: 53%;
     height: 49px;
-    font-size: 1.2rem;
-    margin-top: 7%;
+    font-size: 1rem;
+    margin-top: 22%;
 }
 
 
 
     footer {
         position: static;
-        background-color: #e8c608;
+        background-color:  #FFD34F;
         height: 49px;
         text-align: center;
         padding: 1rem 0;

@@ -169,7 +169,7 @@ function resetInactivityTimer() {
             isUserInactive = true;
             showInactivityWarning();
         }
-    }, 1 * 60 * 1000); 
+    }, 4 * 60 * 1000); 
 }
 
 // logica da atividade do usuário
@@ -193,6 +193,7 @@ document.getElementById('yes-notifications').addEventListener('click', () => {
 });
 
 document.getElementById('no-notifications').addEventListener('click', () => {
+    console.log("Botão 'não' clicado");  // Verifique se isso é registrado
     alert('Você não receberá notificações sobre inatividade de energia.');
     document.getElementById('inactivity-warning').style.display = 'none';
 });
@@ -302,6 +303,7 @@ function handleFormSubmission(event) {
     } else if (isCompany) {
         alert('Cadastro de Empresa realizado com sucesso!');
     }
+
 
     // Exibe a mensagem de boas-vindas
     document.getElementById('welcomeMessage').style.display = 'block';

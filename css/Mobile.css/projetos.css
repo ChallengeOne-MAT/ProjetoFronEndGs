@@ -16,7 +16,7 @@
 
     header {
         
-        background-color: #ece90b;
+        background-color:  #FFD34F;
         padding: 5px;
         text-align: center;
  
@@ -102,7 +102,7 @@ top: 3px;
     .menu_btn span::before,
     .menu_btn span::after {
         display: block;
-        background-color: #e79212;
+        background-color:#f39c12;
         height: 3px;
         width: 100%;
         transition: transform 0.25s ease;
@@ -186,48 +186,77 @@ top: 3px;
     }
 
     .menu_item:hover {
-        color: #fa9600;
+        color: #f39c12;
     }
 
 
 
 
 
-    .popup-content{
-width: 80%;
-height: 51vh;
+    .popup-content {
+        width: 80%;
+        height: 59vh;
+        border: 2px solid #fff;
+        overflow-y: scroll;
     }
 
-    #company-section{
-height: 222px;
+    .company-section {
+        height: 792px;
+        display: flex;
 
     }
+   
 
-    .close-button{
-text-align: end;
-margin-bottom: 3%;
-    }
-
-
-    .user-type-selector{
-display: flex;
-flex-direction: column;
-gap: 30px;
-
-margin: 5% auto 0%;
-    }
-
-    #individualButton,#companyButton{
-        width: 65%;
-        height: 59px;
-        font-size: 1.2rem;
+    .close-button {
+        text-align: end;
+        margin-bottom: 3%;
     }
 
 
-    #btn-cadastro{
-width: 79%;
-height: 52px;
+    .user-type-selector {
+     padding-right: 9%;
+        margin: 5% auto 0% 0%;
     }
+
+    #individualButton,
+    #companyButton {
+        width: 77%;
+        height: 68px;
+        font-size: 1rem;
+    }
+
+  
+#password{
+width: 100%;
+height: 48px;
+}
+#email{
+    width: 100%;
+    height: 47px;
+}
+    #btn-cadastro {
+        width: 62%;
+        height: 47px;
+    }
+
+    .fa-user{
+margin-right: 3%;
+height: 1px;
+    }
+
+    .fa-building{
+       height: 1px;
+    }
+
+
+
+
+
+    .general-fields{
+        display: flex;
+        flex-direction: column;
+    }
+
 
 
     main {
@@ -235,13 +264,47 @@ height: 52px;
         flex-direction: column;
     }
 
+
+    #description{
+        width: 88%;
+    }
+    #description h1{
+font-size: 1.5rem;
+
+    }
+
+
+    #description img{
+        height: auto;
+        width: 77%;
+        margin-top: 14%;
+    }
+    #description p {
+        font-size: 1.2rem;
+        width: 92%;
+     
+    }
+    
+    #description  #formulario{
+        width: 66%;
+        height: 59px;
+        font-size: 1.2rem;
+        margin: 18% auto;
+    }
+
+    #secao-empresa{
+display: flex;
+flex-direction: column;
+
+    }
     .companiesOne {
         width: 100%;
+        margin-top: 20%;
     }
 
 
     .companiesOne h1 {
-        font-size: 2.3rem;
+        font-size: 2.1rem;
         text-align: center;
     }
 
@@ -265,12 +328,14 @@ height: 52px;
 
     .btn {
         width: 60%;
-        height: 52px;
+        height: 55px;
+        margin-top: 15%;
     }
 
     .company {
-        width: 87%;
+        width: 77%;
         height: 483px;
+       
     }
 
 
@@ -282,10 +347,14 @@ height: 52px;
         bottom: 33%;
     }
 
-
+#botao-topo{
+    width: 55%;
+    height: 54px;
+    font-size: 1.2rem;
+}
     footer {
         position:static;
-        background-color: #e8c608;
+        background-color:  #FFD34F;
         height: 49px;
         text-align: center;
         padding: 1rem 0;

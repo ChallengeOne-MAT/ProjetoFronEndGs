@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sugestões</title>
 
-    
+
     <!--links do css para dispositivos-->
     <link rel="stylesheet" href="../css/sugestoes.css">
     <link rel="stylesheet" href="../css/Mobile.css/sugestoes.css">
@@ -13,17 +14,19 @@
     <link rel="stylesheet" href="../css/TabletDeitado/sugestoes.css">
     <link rel="stylesheet" href="../css/Notbook/sugestoes.css">
     <link rel="stylesheet" href="../css/Desktop/sugestoes.css">
-    <head>
-          <!-- Link de Ícones FontAwesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-       
-    </head>
-    
 
-      
+    <head>
+        <!-- Link de Ícones FontAwesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    </head>
+
+
+
 </head>
+
 <body>
-   
+
 
     <header>
         <img src="../img/img_Logo2.png " class="logo-site" alt="Logo_Site">
@@ -38,23 +41,23 @@
                 <i class="fas fa-search"></i>
             </button>
         </div>
-       
-       <!-- Botão do Menu Hambúrguer -->
-       <input type="checkbox" class="menu_toggle" id="menu-toggle">
-       <label class="menu_btn" for="menu-toggle">
-           <span></span>
-       </label>
 
-       <!-- Navegação do menu burguer -->
-       <nav class="menu_box">
-           <ul>
-               <li><a href="../html/index.html" class="menu_item">Início</a></li>
-               <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
-               <li><a href="../html/equipe.html" class="menu_item">Equipe</a></li>
-               <li><a href="#" class="menu_item">Sugestões</a></li>
-           </ul>
-       </nav>
-       
+        <!-- Botão do Menu Hambúrguer -->
+        <input type="checkbox" class="menu_toggle" id="menu-toggle">
+        <label class="menu_btn" for="menu-toggle">
+            <span></span>
+        </label>
+
+        <!-- Navegação do menu burguer -->
+        <nav class="menu_box">
+            <ul>
+                <li><a href="../html/index.html" class="menu_item">Início</a></li>
+                <li><a href="../html/projetos.html" class="menu_item">Projetos</a></li>
+                <li><a href="../html/equipe.html" class="menu_item">Equipe</a></li>
+                <li><a href="#" class="menu_item">Sugestões</a></li>
+            </ul>
+        </nav>
+
         <nav>
             <ul id="cabecalho-pag">
                 <li><a href="../html/index.html">Início</a></li>
@@ -70,71 +73,124 @@
         </nav>
     </header>
 
-    
-
-
-
-                        <!--cadastro do usuario-->
-
-
-                        <div class="registration-popup hidden" id="userRegistrationPopup">
-                            <div class="popup-content">
-                                <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
-                                <h2>Cadastro de Usuário</h2>
-                                <div class="user-type-selector">
-                                    <button id="individualButton">Usuário Individual</button>
-                                    <button id="companyButton">Empresa</button>
-                                </div>
-                                <form id="registrationForm">
-                                    <div class="form-group">
-                                        <label for="email">Email:</label>
-                                        <input type="email" id="email" name="email" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">Senha:</label>
-                                        <input type="password" id="password" name="password" required>
-                                    </div>
-                                    <div id="companyFields" class="hidden">
-                                        <div class="form-group">
-                                            <label for="companyName">Nome da Empresa:</label>
-                                            <input type="text" id="companyName" name="companyName">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="cnpj">CNPJ:</label>
-                                            <input type="text" id="cnpj" name="cnpj">
-                                        </div>
-                                    </div>
-                                    <button type="submit" id="btn-cadastro">Cadastrar</button>
-                                </form>
-                            </div>
-                        </div>
 
 
 
     <main>
-<div class="containerOpinion" id="opiniao">
-    <h1>Sua Opinião Importa!</h1>
-
-    <i class="fas fa-comments custom-icon"></i>  
-    
-    <p>Estamos sempre em busca de melhorias para proporcionar uma melhor experiência a todos. Se você tem alguma sugestão ou deseja registrar uma reclamação, estamos aqui para ouvir você. Sua opinião é fundamental para que possamos evoluir constantemente. Fique à vontade para nos enviar seu feedback, seja ele positivo ou construtivo, e ajude-nos a construir um serviço ainda melhor para você. Para enviar sua sugestão ou reclamação, acesse o <a href="https://forms.gle/ZykhLviAh3RsY4xq8"> formulário de feedback</a></p>
-    
-</div>
-<div class="containerComplaint">
 
 
+    <!--cadastro -->
+    <div class="registration-popup hidden" id="userRegistrationPopup">
+        <div class="popup-content">
+            <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
+            <h2>Cadastro de Usuário</h2>
+            <div class="user-type-selector">
+                <i class="fas fa-user"></i>
+                <button id="individualButton">Usuário Individual</button>
+                <i class="fas fa-building"></i>
+                <button id="companyButton">Empresa</button>
+            </div>
+            <form id="registrationForm">
+                <!-- Campos gerais visíveis para ambos -->
+                <div id="generalFields" class="general-fields">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                </div>
 
-    <h1 id="problemas">Caso haja Problemas</h1>
-    <i class="fas fa-exclamation-triangle  custom-icon "></i>
-    
-    <p>Se você tem algum problema no site e  gostaria de registrar, estamos prontos para ouvir e tomar as ações necessárias para melhorar. Sua insatisfação é tão importante quanto sua sugestão e queremos garantir que sua experiência seja a melhor possível. Clique aqui para registrar sua reclamação no formulário de reclamação.</p>
-</div>
-<div class="containerChatbot">
-    <h1 id="chatbot">Chatbot - Atendimento 24/7</h1>
-    <i class="fas fa-robot custom-icon"></i>
-    
-    <p>implementamos  um chatbot para proporcionar um atendimento mais rápido e eficiente. Nosso assistente virtual estará disponível 24 horas por dia para responder suas dúvidas e ajudar em qualquer situação, seja para sugestões, reclamações ou informações gerais. Se preferir, basta interagir com o chatbot, que estará sempre pronto para lhe oferecer suporte imediato.</p>
-</div>
+                <!-- Campos específicos para Empresa -->
+                <div id="companyFields" class="hidden company-section">
+                    <div class="form-group">
+                        <label for="companyName">Nome da Empresa:</label>
+                        <input type="text" id="companyName" name="companyName">
+                    </div>
+                    <div class="form-group">
+                        <label for="cnpj">CNPJ:</label>
+                        <input type="text" id="cnpj" name="cnpj">
+                    </div>
+                    <div class="form-group">
+                        <label for="responsibleName">Nome do Responsável:</label>
+                        <input type="text" id="responsibleName" name="responsibleName">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessPhone">Telefone da Empresa:</label>
+                        <input type="tel" id="businessPhone" name="businessPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessEmail">Email Comercial:</label>
+                        <input type="email" id="businessEmail" name="businessEmail">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessSector">Setor de Atuação:</label>
+                        <input type="text" id="businessSector" name="businessSector" placeholder="Ex.: Tecnologia">
+                    </div>
+                    <div class="form-group">
+                        <label for="companySize">Tamanho da Empresa:</label>
+                        <select id="companySize" name="companySize">
+                            <option value="small">Pequeno</option>
+                            <option value="medium">Médio</option>
+                            <option value="large">Grande</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" id="btn-cadastro">Cadastrar</button>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="containerOpinion" id="opiniao">
+            <h1>Sua Opinião Importa!</h1>
+
+            <i class="fas fa-comments custom-icon"></i>
+
+            <p>Estamos sempre em busca de melhorias para proporcionar uma melhor experiência a todos. Se você tem alguma
+                sugestão ou deseja registrar uma reclamação, estamos aqui para ouvir você. Sua opinião é fundamental
+                para que possamos evoluir constantemente. Fique à vontade para nos enviar seu feedback, seja ele
+                positivo ou construtivo, e ajude-nos a construir um serviço ainda melhor para você. Para enviar sua
+                sugestão ou reclamação, acesse o <a href="https://forms.gle/ZykhLviAh3RsY4xq8" target="_blank"> formulário de
+                    feedback</a></p>
+
+        </div>
+        <div class="containerComplaint">
+
+
+
+            <h1 id="problemas">Caso haja Problemas</h1>
+            <i class="fas fa-exclamation-triangle  custom-icon "></i>
+
+            <p>Se você tem algum problema no site e gostaria de registrar, estamos prontos para ouvir e tomar as ações
+                necessárias para melhorar. Sua insatisfação é tão importante quanto sua sugestão e queremos garantir que
+                sua experiência seja a melhor possível. Clique aqui para registrar sua reclamação no formulário de
+                reclamação.</p>
+        </div>
+        <div class="containerChatbot">
+            <h1 id="chatbot">Chatbot - Atendimento 24/7</h1>
+            <i class="fas fa-robot custom-icon"></i>
+
+            <p>implementamos um chatbot para proporcionar um atendimento mais rápido e eficiente. Nosso assistente
+                virtual estará disponível 24 horas por dia para responder suas dúvidas e ajudar em qualquer situação,
+                seja para sugestões, reclamações ou informações gerais. Se preferir, basta interagir com o chatbot, que
+                estará sempre pronto para lhe oferecer suporte imediato.</p>
+        </div>
 
     </main>
     <button id="botao-topo"> VOLTAR AO TOPO</button>
@@ -144,6 +200,5 @@
 
     <script src="../js/sugestao.js"></script>
 </body>
+
 </html>
-
-

@@ -1,11 +1,6 @@
 @media (max-width: 576px) {
 
 
-
-
-
-
-
     * {
         width: 100%;
         margin: 0;
@@ -15,7 +10,7 @@
 
     header {
         
-        background-color: #ece90b;
+        background-color:  #FFD34F;
         padding: 5px;
         text-align: center;
  
@@ -101,7 +96,7 @@ top: 3px;
     .menu_btn span::before,
     .menu_btn span::after {
         display: block;
-        background-color: #e79212;
+        background-color: #f39c12;
         height: 3px;
         width: 100%;
         transition: transform 0.25s ease;
@@ -185,48 +180,80 @@ top: 3px;
     }
 
     .menu_item:hover {
-        color: #fa9600;
+        color:#f39c12;
     }
 
 
 
 
 
-    .popup-content{
-width: 80%;
-height: 51vh;
+    .popup-content {
+        width: 80%;
+        height: 59vh;
+        border: 2px solid #fff;
+        overflow-y: scroll;
     }
-
-    #company-section{
-height: 222px;
+    .popup-content h2{
+        font-size: 1.9rem;
+        margin: 16% auto;
+        }
+    .company-section {
+        height: 792px;
+        display: flex;
 
     }
+   
 
-    .close-button{
-text-align: end;
-margin-bottom: 3%;
-    }
-
-
-    .user-type-selector{
-display: flex;
-flex-direction: column;
-gap: 30px;
-
-margin: 5% auto 0%;
-    }
-
-    #individualButton,#companyButton{
-        width: 65%;
-        height: 59px;
-        font-size: 1.2rem;
+    .close-button {
+        text-align: end;
+        margin-bottom: 3%;
     }
 
 
-    #btn-cadastro{
-width: 79%;
-height: 52px;
+    .user-type-selector {
+     padding-right: 9%;
+        margin: 5% auto 0% 0%;
     }
+
+    #individualButton,
+    #companyButton {
+        width: 77%;
+        height: 68px;
+        font-size: 1rem;
+    }
+
+  
+#password{
+width: 100%;
+height: 48px;
+}
+#email{
+    width: 100%;
+    height: 47px;
+}
+    #btn-cadastro {
+        width: 62%;
+        height: 47px;
+    }
+
+    .fa-user{
+margin-right: 3%;
+height: 1px;
+    }
+
+    .fa-building{
+       height: 1px;
+    }
+
+
+
+
+
+    .general-fields{
+        display: flex;
+        flex-direction: column;
+    }
+
 
 
 
@@ -237,18 +264,18 @@ height: 52px;
     }
 
     .team-memberOne img {
-        height: auto;
-        width: 52%;
-        margin: 6% auto;
+        height: 40%;
+        width: 65%;
+        margin: 10% auto;
     }
 
     .team-memberOne h3 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-bottom: 8%;
     }
 
     .team-memberOne p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .social-icons {
@@ -266,10 +293,18 @@ height: 52px;
         flex-direction: column;
     }
 
-
+#botao-topo{
+    width: 55%;
+    height: 66px;
+    font-size: 1.2rem;
+margin: 26% auto;
+}
+#matteus{
+    margin-top: 20%;
+}
     footer {
         position:static;
-        background-color: #e8c608;
+        background-color:  #FFD34F;
         height: 49px;
         text-align: center;
         padding: 1rem 0;

@@ -67,28 +67,32 @@
 
 
 
-
-    <!--cadastro do usuario-->
-
-
+    <!--cadastro -->
     <div class="registration-popup hidden" id="userRegistrationPopup">
         <div class="popup-content">
             <span class="close-button" id="closeRegistrationPopupButton">&times;</span>
             <h2>Cadastro de Usuário</h2>
             <div class="user-type-selector">
+                <i class="fas fa-user"></i>
                 <button id="individualButton">Usuário Individual</button>
+                <i class="fas fa-building"></i>
                 <button id="companyButton">Empresa</button>
             </div>
             <form id="registrationForm">
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                <!-- Campos gerais visíveis para ambos -->
+                <div id="generalFields" class="general-fields">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <div id="companyFields" class="hidden">
+
+                <!-- Campos específicos para Empresa -->
+                <div id="companyFields" class="hidden company-section">
                     <div class="form-group">
                         <label for="companyName">Nome da Empresa:</label>
                         <input type="text" id="companyName" name="companyName">
@@ -97,9 +101,35 @@
                         <label for="cnpj">CNPJ:</label>
                         <input type="text" id="cnpj" name="cnpj">
                     </div>
+                    <div class="form-group">
+                        <label for="responsibleName">Nome do Responsável:</label>
+                        <input type="text" id="responsibleName" name="responsibleName">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessPhone">Telefone da Empresa:</label>
+                        <input type="tel" id="businessPhone" name="businessPhone">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessEmail">Email Comercial:</label>
+                        <input type="email" id="businessEmail" name="businessEmail">
+                    </div>
+                    <div class="form-group">
+                        <label for="businessSector">Setor de Atuação:</label>
+                        <input type="text" id="businessSector" name="businessSector" placeholder="Ex.: Tecnologia">
+                    </div>
+                    <div class="form-group">
+                        <label for="companySize">Tamanho da Empresa:</label>
+                        <select id="companySize" name="companySize">
+                            <option value="small">Pequeno</option>
+                            <option value="medium">Médio</option>
+                            <option value="large">Grande</option>
+                        </select>
+                    </div>
                 </div>
+
                 <button type="submit" id="btn-cadastro">Cadastrar</button>
             </form>
+
         </div>
     </div>
 
@@ -117,7 +147,7 @@
                 contato com a empresa, após se inscrever no formulario)
 
                 universidades/escolas públicas 25% de desconto</p>
-            <a href="https://forms.gle/4m962qT2J1omNKVz7">
+            <a href="https://forms.gle/4m962qT2J1omNKVz7" target="_blank">
                 <button id="formulario">acessar inscrição </button>
             </a>
         </section>
