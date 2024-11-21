@@ -215,6 +215,11 @@ margin-top: 10%;
         overflow-y: scroll;
     }
 
+    .popup-content, h2 {
+    background-color: #f39c12;
+    
+    }
+
     #company-section {
         height: 222px;
 

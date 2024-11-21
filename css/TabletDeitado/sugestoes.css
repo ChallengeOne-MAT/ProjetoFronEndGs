@@ -1,50 +1,83 @@
 @media (min-width: 650px) and (max-width: 800px) and (orientation: landscape) {
 
-        /*cabecalho da pag*/
+
         
-        header {
-            background-color: #FFD34F;
-            display: flex;
-            flex-direction: column;
-        justify-content: space-evenly;
-            align-items: center;
-        width: 100%;
-        height:216px;
-        }
-        
-        
-        .logo {
-            color: #000;
-            font-size: 1.8rem;
-            position: relative;
-            right: 38%;
-            margin: 3% auto 2.5%;
-        }
-        
-        .logo-site{
-            height: auto;
-            width: 12.5%;
+    header {
+        background-color: #FFD34F;
+        display: flex;
+        flex-direction: column;
+    justify-content: space-evenly;
+        align-items: center;
+    width: 100%;
+    height:216px;
+    }
+    
+    
+    .logo {
+        color: #000;
+        font-size: 1.8rem;
         position: relative;
-        right: 1%;
-        }
-        
-        
-        
-        
-        nav ul {
-            list-style-type: none;
-            display: flex;
-            gap:1rem;
-           font-size: 1.3rem;
-           margin-top: 4%;
-        }
-        
-        nav a {
-            color: #000;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
+        right: 38%;
+        margin: 3% auto 2.5%;
+    }
+    
+    .logo-site{
+        height: auto;
+        width: 8.5%;
+    position: relative;
+    right: 1%;
+    }
+    
+    
+    
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        gap:1rem;
+       font-size: 1.3rem;
+       margin-top: 4%;
+    }
+    
+    nav a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    nav a:hover {
+        color: #ffffff;
+    }
+    
+    .menu_toggle, .menu_btn {
+        display: none; /* Ocultando o botão do menu hambúrguer em telas grande */
+    }
+    
+    .menu_box {
+        display: none; /* Ocultando menu_box  */
+    }
+    a{
+        text-decoration: none;
+        width: 14%;
+    }
+    
+    /*icone de lupa*/
+    .fas.fa-search {
+        font-size: 18px;
+        color: #3333338a; 
+        margin-right: 10px;
+        margin-top: 3%;
+    }
+    
+    
+    #inputSearch{
+        height: 40px;
+        font-size: 1.2rem;
+                }
+    
+
+
         
         nav a:hover {
             color: #ffffff;
@@ -57,18 +90,7 @@
         .menu_box {
             display: none; /* Ocultando menu_box  */
         }
-        a{
-            text-decoration: none;
-            width: 14%;
-        }
-        
-        /*icone de lupa*/
-        .fas.fa-search {
-            font-size: 18px;
-            color: #3333338a; 
-            margin-right: 10px;
-            margin-top: 3%;
-        }
+      
         
         
         
@@ -138,91 +160,236 @@
         
         
         
-        
-        /* Popup de Registro */
-        .registration-popup {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 10;
-        }
-        
-        .popup-content {
-            background: rgb(255, 255, 255);
-            padding: 20px;
-            border-radius: 8px;
-            color: #000;
-            width: 24%;
-            max-width: 90%;
-            position: relative;
-        }
-        
-        .hidden {
-            display: none;
-        }
-        
-        .close-button {
-            position: absolute;
-            top: 1px;
-            right: 22px;
-            font-size: 37px;
-            cursor: pointer;
-        }
-        .user-type-selector{
-            display: flex;
-            
-            }
-        
-        .user-type-selector button {
-        
-            padding: 8px;
-            cursor: pointer;
-        
-        margin: auto;
-            background-color: #007396;
-        }
-        
-        
-        
-        .form-group{
-            display: flex;
-            flex-direction: column;
-        text-align: center;
-        margin: 4% auto 1%; 
-        }
-        
-        .form-group input{
-        padding: 3%;
-        border-radius: 8px;
-        }
-        
-        .form-group label{
-        text-align: start;
-        margin: 1.5%;
-        }
-        
-        .form-group button{
-        padding: 21%;
-        background-color: #1f74b4;
-        }
-        
-        #btn-cadastro{
-            width: 56%;
-            height: 47px;
-        background-color: #1572b6;
-        padding: 3%;
-        border-radius: 8px;
-        border: none;
-        margin: 16% auto 0 22%;
-        }
-        
-        
+    
+
+
+
+
+/* Popup de Registro */
+.registration-popup {
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+
+.popup-content {
+    overflow-y: scroll;
+height: 88%;
+    background: rgba(47, 46, 44, 0.815);
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    width: 77%;
+    max-width: 90%;
+    position: relative;
+    border: 2px solid  #f39c12;
+}
+
+
+.popup-content h2 {
+    padding-bottom: 12%;
+    font-size: 2.3rem;
+    }
+.hidden {
+    display: none;
+}
+
+/*botao do usuario*/
+
+#individualButton {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background-color: #00000000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+
+
+#individualButton:hover {
+    background-color: #f39c12;
+    border: 2px solid #000;
+    color: #000000;
+}
+
+/*botao da empresa*/
+
+#companyButton {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background-color: #00000000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+#companyButton:hover {
+    background-color: #f39c12;
+    border: 2px solid #000;
+    color: #000000;
+}
+
+
+
+
+
+
+/* Estilizção  do formulario empresa */
+.company-section {
+   
+    padding: 15px;
+    border: 2px solid #967500;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.general-fields,
+.company-section {
+    display: flex;
+  
+    gap: 15px;
+    width: 100%;
+}
+
+/* input ocupando 45% da largura do contêiner */
+.form-group {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#companyName, #responsibleName{
+width: 100%;
+}
+#cnpj{
+    width: 100%;
+}
+#businessSector{
+width: 100%;
+}
+
+#email{
+    width: 80%;
+    height: 48px;
+}
+#password{
+    width: 80%;
+
+}
+
+
+ .fa-building{
+position: relative;
+left:23%;
+bottom: 16%;
+font-size: 1.9rem;
+}
+.fa-user{
+    position: relative;
+    left:27%;
+    bottom: 16%;
+    font-size: 1.9rem;
+}
+
+.company-section .form-group label {
+    color: #f39c12;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.company-section .form-group input {
+    border: 1px solid #000000;
+    background-color: #fffbe6;
+    height: 42px;
+}
+
+#companySize {
+    height: 32px;
+    border-radius: 5px;
+}
+
+.company-section select {
+    background-color: #fffbe6;
+    border: 1px solid #000000;
+}
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 1px;
+    right: 22px;
+    font-size: 37px;
+    cursor: pointer;
+}
+
+.user-type-selector {
+    display: flex;
+height: 125px;
+}
+
+.user-type-selector button {
+
+    padding: 8px;
+    cursor: pointer;
+
+    margin: auto;
+    background-color: #967500;
+}
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4% auto 1%;
+}
+
+.form-group input {
+    padding: 3%;
+    border-radius: 8px;
+}
+
+.form-group label {
+    text-align: start;
+    margin: 1.5%;
+}
+
+.form-group button {
+    padding: 21%;
+    background-color: #ffffff;
+}
+
+#btn-cadastro {
+    width: 56%;
+    height: 59px;
+    font-size: 1.4rem;
+    background-color: #f39c12;
+    padding: 3%;
+    border-radius: 8px;
+    border: none;
+    margin: 16% auto 0 22%;
+}
+
+
         
         
         
@@ -276,4 +443,8 @@
         text-align: start;
     }
     
+    #botao-topo{
+        width: 50%;
+    }
+
     }
