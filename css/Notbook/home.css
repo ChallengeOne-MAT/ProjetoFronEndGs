@@ -30,16 +30,32 @@ width: 100%;
 }
 
 
-
+/* Estilo do container do carrossel */
 #Banner {
-    width: 100%;
-    margin: 19% auto 0;
+    width: 95%;
+    margin: 5% auto 0;
+    overflow: hidden;
+    border-radius: 19px;
+}
+
+/* Container do carrossel */
+.carousel {
+    display: flex;
+    animation: slide 18s infinite;
+    gap: 10px;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease;
 }
 
 .carousel-item img {
-    max-width: 100%;
-    height: 135px;
-    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 15px;
 }
 
 
@@ -70,12 +86,11 @@ nav a:hover {
 .menu_toggle,
 .menu_btn {
     display: none;
-    /* Ocultando o botão do menu hambúrguer em telas grande */
 }
 
 .menu_box {
     display: none;
-    /* Ocultando menu_box  */
+  
 }
 
 a {
@@ -434,7 +449,7 @@ button:hover {
 
 /* Estilo do container do carrossel */
 #Banner {
-    width: 70%;
+    width: 95%;
     margin: 5% auto 0;
     overflow: hidden;
     border-radius: 19px;
@@ -814,9 +829,14 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+.sectionSix img{
+display: none;
+}
 
-
-
+.sectionSix p{
+    width: 96%;
+    margin: auto;
+}
 .projectInformation {
     height: 422px;
     width: 70%;
@@ -839,7 +859,7 @@ h2 {
 }
 
 .sectionSixDescription {
-    margin-top: 4%;
+    margin-top: 7%;
     text-align: center;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -875,7 +895,7 @@ h2 {
 .sectionSeven {
     width: 74%;
     margin: 7% auto 5% 19%;
-    height: 77vh;
+    height: 56vh;
     border: 3px solid #f39c12;
     border-radius: 19px;
 }
@@ -1010,7 +1030,7 @@ h2 {
     margin-top: 10%;
     background-color: #ffffff2c;
     width: 70%;
-    margin: auto;
+    margin:  13% auto 0;
     height: 391px;
 }
 

@@ -169,7 +169,7 @@ function resetInactivityTimer() {
             isUserInactive = true;
             showInactivityWarning();
         }
-    }, 4 * 60 * 1000); 
+    }, 9 * 60 * 1000); 
 }
 
 // logica da atividade do usuário

@@ -377,6 +377,7 @@ height: 125px;
 .carousel-item img {
     max-width: 100%;
     height: 175px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -535,6 +536,7 @@ font-size: 1.3rem;
 .sectionSix{
 margin: 12% auto;
 height: 489px;
+width: 77%;
 
 }
 .projectInformation{
@@ -663,9 +665,9 @@ font-size: 2.2rem;
 
  
  .sectionNine h1{
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     width: 98%;
-    margin: 8% auto;
+    margin: 14% auto 4%;
  }
 
 #botao-topo{
