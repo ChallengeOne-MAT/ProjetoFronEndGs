@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1360px) {
 
 /* Reset de margens e paddings */
 * {
@@ -858,6 +858,10 @@ display: none;
     font-family: 'Roboto', sans-serif;
 }
 
+.sectionSix{
+height: 59vh;
+}
+
 .sectionSixDescription {
     margin-top: 7%;
     text-align: center;
@@ -881,6 +885,10 @@ display: none;
 }
 
 
+#btn-sectionSix{
+margin-right: 15%;
+}
+
 .btn:hover {
     background-color: #ff9500;
     color: #ffffff;
@@ -895,7 +903,7 @@ display: none;
 .sectionSeven {
     width: 74%;
     margin: 7% auto 5% 19%;
-    height: 56vh;
+    height: 59vh;
     border: 3px solid #f39c12;
     border-radius: 19px;
 }

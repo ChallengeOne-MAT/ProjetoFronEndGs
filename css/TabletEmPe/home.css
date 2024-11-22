@@ -498,7 +498,7 @@ margin-top: 6%;
 
 .containerThree{
 width: 77%;
-height: 894px;
+height: 1294px;
 }
 
 
@@ -544,6 +544,8 @@ width: 77%;
     text-align: center;
     align-items: center;
 }
+
+
 .projectInformation .title{
     font-size: 2rem;
     width: 99%;
@@ -552,7 +554,9 @@ width: 77%;
 
 .projectInformation p{
    font-size: 1.2rem;
-   width: 92%; 
+   width: 100%;
+   text-align: center;
+   margin: auto; 
 }
 
 
@@ -585,6 +589,10 @@ width: 77%;
 
  .btn{
 margin: auto;
+ }
+
+ #btn-sectionSix{
+margin-right: 14%;
  }
 
  .sectionEight h1{
@@ -662,7 +670,10 @@ font-size: 2.2rem;
     font-size: 3em;
 }
 
+.sectionNine {
 
+height: 194px;
+}
  
  .sectionNine h1{
     font-size: 1.9rem;

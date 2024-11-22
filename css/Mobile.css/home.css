@@ -417,10 +417,12 @@ height: 1px;
 
     .containerThree {
         width: 89%;
-        height: 733px;
+        height: 993px;
     }
 
-
+    .modal{
+width: 77%;
+    }
     .containerThree h2 {
         font-size: 1.3rem;
         margin: 3% auto 4%;

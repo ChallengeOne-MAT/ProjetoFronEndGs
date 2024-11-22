@@ -221,8 +221,11 @@ width: 87%;
     
     
     
-    
-    
+   
+    .modal-content{
+        width: 77%;   
+        margin: auto;
+    }
     
     /* Estilizção  do formulario empresa */
     .company-section {

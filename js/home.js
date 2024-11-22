@@ -273,7 +273,6 @@ scrollToTopButton.onclick = function () {
 
 
 
-
 // Variáveis para controle de tipo de usuário
 let isIndividual = false;
 let isCompany = false;

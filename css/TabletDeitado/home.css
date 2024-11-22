@@ -540,7 +540,7 @@ height: 125px;
         
         .containerThree{
         width: 88%;
-        height: 894px;
+        height: 1194px;
         }
         
         
@@ -572,7 +572,9 @@ height: 125px;
         }
         
         
-        
+        #btn-sectionSix{
+            margin-right: 14%;
+             }        
         
         
         .sectionSix{
@@ -605,7 +607,9 @@ height: 125px;
             width: 90%;
             
         }
-        
+        .sectionSevenDescription{
+font-size: 1.3rem;
+        }
         .feedbackInformation{
             width: 92%;
         }
@@ -636,10 +640,14 @@ height: 125px;
 .sectionNine{
     height: 222px;
     margin: 6% auto;
+width: 88%;
 }
 
+
+
+
          .sectionNine h1{
-            font-size: 1.9rem;
+            font-size: 2.2rem;
             width: 98%;
             margin: 23% auto 5%;
          }
